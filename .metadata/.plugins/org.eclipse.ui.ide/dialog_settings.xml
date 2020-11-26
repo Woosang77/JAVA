@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Java\workspace\Project01_kookbi"/>
+		<item value="C:\Java\workspace\StudentManaging"/>
+		<item value="C:\Java\workspace\first\src\Practice"/>
+		<item value="C:\Java\workspace\Game(ClassPrac)"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

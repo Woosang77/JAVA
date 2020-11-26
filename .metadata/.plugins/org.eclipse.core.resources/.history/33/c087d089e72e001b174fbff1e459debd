@@ -1,0 +1,12 @@
+package Practice.Lesson;
+
+import java.util.Calendar;
+
+public class TestVersion {
+	public static void main(String[] args) {
+		Calendar now = Calendar.getInstance();
+		
+		int month = now.get(Calendar.MONTH) + 1;
+		System.out.println(month);
+	}
+}

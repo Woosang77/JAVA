@@ -1,0 +1,10 @@
+package Practice.running;
+
+public class Tire {
+	public int maxRotation;
+	public int accumulatedRotation;
+	public String location	;
+	
+	public Tire(String l)
+	
+}
