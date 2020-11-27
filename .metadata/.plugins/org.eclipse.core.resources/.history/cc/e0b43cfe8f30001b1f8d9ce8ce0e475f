@@ -1,0 +1,5 @@
+package Practice.Lesson.ThreadPart.State;
+
+public class StatePrintThread {
+
+}

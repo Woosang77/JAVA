@@ -1,0 +1,30 @@
+package Practice.Lesson.ThreadPart.Function.E04_wait_notify;
+
+public class DataBox {
+	private String data;
+	
+	public String getData() {
+		if(data == null) {
+			try {
+				wait();
+			} catch (InterruptedException e) {}
+		}
+		String getValue = data;
+		System.out.println("ConsumerThread가 가져온 데이터 :" + getValue);
+		data = null;
+		notify();
+		return getValue;
+	}
+	
+	public void setData(String data) {
+		if (data != null) {
+			try {
+				wait();
+			} catch (InterruptedException e) {}
+		}
+		this.data = data;
+		System.out.println("ProducerThread가 입력한 데이터 : " + data);
+		notify();
+	}
+	
+}

@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Practice.Lesson.EnumDemo.Fruit"/>
-<fullyQualifiedTypeName name="Practice.SmartPhone.Tool"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="java.io.FileWriter"/>
-<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
-<fullyQualifiedTypeName name="java.awt.Desktop"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-<fullyQualifiedTypeName name="Practice.SoccerBoard.DirectTyping"/>
-<fullyQualifiedTypeName name="Practice.SoccerBoard.FileReadChar"/>
-<fullyQualifiedTypeName name="Practice.Lesson.StudentInfo"/>
-<fullyQualifiedTypeName name="Practice.Lesson.StudentPerson"/>
 <fullyQualifiedTypeName name="Practice.Lesson.EmployeePerson"/>
 <fullyQualifiedTypeName name="Practice.Lesson.Info"/>
 <fullyQualifiedTypeName name="Practice.Lesson.EmployeeInfo"/>
@@ -52,12 +36,28 @@
 <fullyQualifiedTypeName name="java.util.Objects"/>
 <fullyQualifiedTypeName name="Practice.Lesson.HashcodeExample.Student"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="java.lang.Runnable"/>
-<fullyQualifiedTypeName name="java.awt.Toolkit"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.BeepThread"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadB"/>
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Priority.CalcThread"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Synchronized.Calculator"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Synchronized.User1"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Snynchronized.Account"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Snynchronized.A"/>
+<fullyQualifiedTypeName name="java.lang.Thread.State"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.State.StatePrintThread"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.State.TargetThread"/>
+<fullyQualifiedTypeName name="java.awt.Transparency"/>
+<fullyQualifiedTypeName name="java.awt.Toolkit"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadName.ThreadA"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadName.ThreadB"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E03_join.SumThread"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E04_wait_notify.DataBox"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E04_wait_notify.ProducerThread"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E04_wait_notify.ConsumerThread"/>
 </qualifiedTypeNameHistroy>

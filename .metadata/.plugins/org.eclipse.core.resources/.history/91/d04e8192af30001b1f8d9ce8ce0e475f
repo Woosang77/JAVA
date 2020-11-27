@@ -1,0 +1,33 @@
+package Practice.Lesson.ThreadPart.Function.E04_wait_notify;
+
+public class DataBox {
+	
+	//Databox는 공유객체의 역할이다. 
+	//wait과 notify는 Thread 클래스의 메소드가 아니라, Object 클래스의 메소드이므로 공유객체에서 호출이 가능하다.
+	private String data;		//기본 data 값은 null이다.
+	
+	public synchronized String getData() {		//wait과 notify를 사용하는 메소드는 반드시 동기화(synchronized)처리가 되어야한다.
+		if(data == null) {
+			try {
+				wait();
+			} catch (InterruptedException e) {}
+		}
+		String getValue = data;
+		System.out.println("ConsumerThread가 가져온 데이터 :" + getValue);
+		data = null;
+		notify();
+		return getValue;
+	}
+	
+	public synchronized void setData(String data) {
+		if (this.data != null) {
+			try {
+				wait();
+			} catch (InterruptedException e) {}
+		}
+		this.data = data;
+		System.out.println("ProducerThread가 입력한 데이터 : " + data);
+		notify();
+	}
+	
+}
