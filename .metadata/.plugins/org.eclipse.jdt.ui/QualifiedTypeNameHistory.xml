@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="Practice.Lesson.J"/>
-<fullyQualifiedTypeName name="Practice.Lesson.K"/>
-<fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -32,7 +25,6 @@
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Synchronized.Calculator"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Synchronized.User1"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Snynchronized.Account"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Snynchronized.A"/>
 <fullyQualifiedTypeName name="java.lang.Thread.State"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.State.StatePrintThread"/>
@@ -53,11 +45,19 @@
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.lang.StackTraceElement"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E07_threadGroup.WorkThread"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E07_threadGroup.TestRun"/>
 <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="HorseRacingUsingThread.Horse"/>
+<fullyQualifiedTypeName name="HorseRacingUsingThread.Rank"/>
+<fullyQualifiedTypeName name="HorseRacingGame.Identify"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="HorseRacingGame.Management"/>
 </qualifiedTypeNameHistroy>
