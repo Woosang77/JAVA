@@ -46,13 +46,16 @@ public class Management {
 		Identify identify = new Identify();
 		String name;
 		String sex;
-		int[] age = new int[3];
+		String age;
 		do {
 			System.out.print("신규 이용자 가입을 하시겠습니까? ( Y / N )");
 			String answer = sc.nextLine();
 			if(answer.equals("Y") || answer.equals("y")) {
+				//이름
 				System.out.print("이름 : ");
 				name = sc.nextLine();
+				identify.setName(name);
+				//성별
 				System.out.println("성별( 남 / 여 ) : ");
 				sex = sc.nextLine();
 				try {
@@ -61,17 +64,16 @@ public class Management {
 					System.out.println("성별 입력 예외 발생, 사용자 가입을 다시 합니다.");
 					continue;
 				}
+				//생년월일 
 				System.out.print("생년월일을 입력해주세요."
 						+ "\nEx) 1999-06-12"
 						+ "\n입력 : ");
-				for (int i = 0; i < age.length; i++) {
-					age[i] = sc.nextInt();
-				}
-				sc.nextLine();
+				age = sc.nextLine();
 				try {
 					identify.setAge(age);					
 				} catch (IllegalAgeException e) {
-					e.getStackTrace();
+					System.out.println("미성년자 가입 예외 발생, 메인 메뉴로 이동합니다.");
+					break;
 				}
 
 			}else if(answer.equals("N") || answer.equals("n")) {

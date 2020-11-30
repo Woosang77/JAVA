@@ -1,19 +1,20 @@
 package HorseRacingGame;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 public class Identify {
 	
 	private String name;
 	private String sex;
 	private int year;
-	private int month;
-	private int day;
-	private int pin;
-
+	
+	Calendar cal1 = Calendar.getInstance();
 	Calendar now = Calendar.getInstance();
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+	
 	public String getName() {
 		return name;
 	}
@@ -27,7 +28,7 @@ public class Identify {
 	}
 
 	public void setSex(String sex) throws SexUnclearException{
-		if(sex != "남" || sex != "여") {
+		if(sex != "남" && sex != "여") {
 			throw new SexUnclearException("성별을 잘못 입력하셨습니다. :" + sex);
 		}
 		this.sex = sex;
@@ -37,16 +38,18 @@ public class Identify {
 		return year;
 	}
 
-	public void setAge(int[] age) throws IllegalAgeException{
-		int year = age[0];
-		int month = age[1];
-		int day = age[2];
-		if((now.get(Calendar.YEAR) - year) < 19) {
-			throw new IllegalAgeException("만 19세 미만은 이용하실 수 없습니다.");
+	public void setAge(String age) throws IllegalAgeException{
+		
+		Date birth = null;
+		try {
+			 birth = sdf.parse(age);
+		} catch (ParseException e) {e.getStackTrace();}
+		cal1.setTime(birth);
+		now.add(Calendar.YEAR, -19);
+		if (cal1.after(now)) {
+			throw new IllegalAgeException("만 19세 미만은 사용하실 수 없습니다.");
 		}
-		if((now.get(Calendar.YEAR) - year) == 19 && (now.get(Calendar.MONTH) + 1) < month) {
-			throw new IllegalAgeException("만 19세 미만은 이용하실 수 없습니다.");
-		}
+		
 	}
 	
 
