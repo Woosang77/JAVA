@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Management {
 	
+	List<Identify> membersIdcheck = new ArrayList<Identify>();
 	Scanner sc = new Scanner(System.in);
 	
 	public void menu() {
@@ -47,14 +48,20 @@ public class Management {
 		String name;
 		String sex;
 		String age;
+		String id;
+		int pin;
+		boolean flags = true;
+		
 		do {
 			System.out.print("신규 이용자 가입을 하시겠습니까? ( Y / N )");
 			String answer = sc.nextLine();
 			if(answer.equals("Y") || answer.equals("y")) {
+				
 				//이름
 				System.out.print("이름 : ");
 				name = sc.nextLine();
 				identify.setName(name);
+				
 				//성별
 				System.out.print("성별( 남 / 여 ) : ");
 				sex = sc.nextLine();
@@ -65,6 +72,7 @@ public class Management {
 							 + "\n처음으로 돌아갑니다.");
 					continue;
 				}
+				
 				//생년월일 
 				System.out.print("생년월일을 입력해주세요."
 						+ "\nEx) 1999-06-12"
@@ -80,6 +88,28 @@ public class Management {
 				System.out.println("이름 : " + identify.getName()
 						+ "\n성별 : " + identify.getSex()
 						+ "\n생년월일 : " + identify.getAge());
+				
+				//아이디 설정 (중복있나 확인 할거임)
+				do {
+					System.out.print("등록할 아이디를 눌러주세요 : ");
+					id = sc.nextLine();
+					flags = idchecking(id);
+				} while (flags);
+				identify.setId(id);
+				System.out.println("아이디 등록이 완료되었습니다.");
+				
+				//비밀번호 설정(pin 4자리)
+				do {
+					System.out.print("사용할 비밀번호 4자리 숫자를 입력해주세요 : ");
+					pin = sc.nextInt();
+					sc.nextLine();
+					if (!((pin % 1000) >= 1)) {
+						System.out.println("잘못 입력하셨습니다.");
+						continue;
+					}
+					
+				} while (true);
+				
 			}else if(answer.equals("N") || answer.equals("n")) {
 				System.out.println("메인 메뉴로 이동합니다.");
 				break;
@@ -87,5 +117,16 @@ public class Management {
 				System.out.println("잘못 누르셨습니다. 다시 눌러주세요.");
 			}
 		} while (true);
+	}
+	
+	//아이디 중복검사
+	boolean idchecking(String id) {
+		for (Identify checkmember : membersIdcheck) {
+			if (id.equals(checkmember.getId())) {
+				System.out.println("아이디가 중복되었습니다. 다른 아이디를 등록해주세요.");
+				return true;
+			}
+		}
+		return false;
 	}
 }

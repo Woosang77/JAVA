@@ -10,7 +10,16 @@ public class Identify {
 	private String name;
 	private String sex;
 	private String age;
+	private String id;
 	
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
 	Calendar cal1 = Calendar.getInstance();
 	Calendar now = Calendar.getInstance();
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
@@ -53,6 +62,21 @@ public class Identify {
 		}
 		this.age = age;
 	}
-	
 
+}
+
+class Pin {
+	private int pin;
+
+	public Pin(int pin) {
+		this.pin = pin;
+	}
+	
+	public int getPin() {
+		return pin;
+	}
+
+	public void setPin(int pin) {
+		this.pin = pin;
+	}
 }
