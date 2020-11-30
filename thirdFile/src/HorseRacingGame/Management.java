@@ -56,12 +56,13 @@ public class Management {
 				name = sc.nextLine();
 				identify.setName(name);
 				//성별
-				System.out.println("성별( 남 / 여 ) : ");
+				System.out.print("성별( 남 / 여 ) : ");
 				sex = sc.nextLine();
 				try {
 					identify.setSex(sex);
 				} catch (SexUnclearException e) {
-					System.out.println("성별 입력 예외 발생, 사용자 가입을 다시 합니다.");
+					System.out.println(e.getMessage()
+							 + "\n처음으로 돌아갑니다.");
 					continue;
 				}
 				//생년월일 
@@ -72,10 +73,13 @@ public class Management {
 				try {
 					identify.setAge(age);					
 				} catch (IllegalAgeException e) {
-					System.out.println("미성년자 가입 예외 발생, 메인 메뉴로 이동합니다.");
-					break;
+					System.out.println(e.getMessage() +
+							"\n처음으로 돌아갑니다.");
+					continue;
 				}
-
+				System.out.println("이름 : " + identify.getName()
+						+ "\n성별 : " + identify.getSex()
+						+ "\n생년월일 : " + identify.getAge());
 			}else if(answer.equals("N") || answer.equals("n")) {
 				System.out.println("메인 메뉴로 이동합니다.");
 				break;

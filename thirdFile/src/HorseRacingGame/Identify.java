@@ -9,7 +9,7 @@ public class Identify {
 	
 	private String name;
 	private String sex;
-	private int year;
+	private String age;
 	
 	Calendar cal1 = Calendar.getInstance();
 	Calendar now = Calendar.getInstance();
@@ -28,28 +28,30 @@ public class Identify {
 	}
 
 	public void setSex(String sex) throws SexUnclearException{
-		if(sex != "남" && sex != "여") {
-			throw new SexUnclearException("성별을 잘못 입력하셨습니다. :" + sex);
+		if(!(sex.equals("남" )|| sex.equals("여"))) {
+			throw new SexUnclearException("성별을 잘못 입력하셨습니다. : " + sex);
 		}
 		this.sex = sex;
+		
 	}
 
-	public int getAge() {
-		return year;
+	public String getAge() {
+		return age;
 	}
 
 	public void setAge(String age) throws IllegalAgeException{
-		
+		String temp = age;
 		Date birth = null;
 		try {
-			 birth = sdf.parse(age);
+			 birth = sdf.parse(temp);
 		} catch (ParseException e) {e.getStackTrace();}
 		cal1.setTime(birth);
 		now.add(Calendar.YEAR, -19);
 		if (cal1.after(now)) {
-			throw new IllegalAgeException("만 19세 미만은 사용하실 수 없습니다.");
+			throw new IllegalAgeException(sdf.format(now.getTime())
+					+ " 이후 태생인 사용자는 19세 미만이므로 서비스 이용이 불가능 합니다.");
 		}
-		
+		this.age = age;
 	}
 	
 
