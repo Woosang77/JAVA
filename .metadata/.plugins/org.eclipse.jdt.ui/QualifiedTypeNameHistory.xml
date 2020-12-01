@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Collection"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="Practice.Lesson.planElement"/>
-<fullyQualifiedTypeName name="Practice.Lesson.planner"/>
-<fullyQualifiedTypeName name="Practice.Lesson.Planner.planElement"/>
-<fullyQualifiedTypeName name="Practice.Lesson.interFaceAbstract"/>
-<fullyQualifiedTypeName name="Practice.running.Tire"/>
-<fullyQualifiedTypeName name="Practice.running.Car"/>
 <fullyQualifiedTypeName name="Practice.running.KumhoTire"/>
 <fullyQualifiedTypeName name="Practice.running.HankookTire"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.util.Objects"/>
 <fullyQualifiedTypeName name="Practice.Lesson.HashcodeExample.Student"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.BeepThread"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadB"/>
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
@@ -55,9 +42,22 @@
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="HorseRacingUsingThread.Horse"/>
 <fullyQualifiedTypeName name="HorseRacingUsingThread.Rank"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="HorseRacingGame.Management"/>
+<fullyQualifiedTypeName name="HorseRacingGame.SexUnclearException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="HorseRacingGame.IllegalAgeException"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollBarUI"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="HorseRacingGame.Pin"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="HorseRacingGame.Identify"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="HorseRacingGame.Management"/>
 </qualifiedTypeNameHistroy>

@@ -7,10 +7,20 @@ import java.util.Date;
 
 public class Identify {
 	
+	private int money = 1000;
 	private String name;
 	private String sex;
 	private String age;
 	private String id;
+	private int pin;
+	
+	public int getPin() {
+		return pin;
+	}
+
+	public void setPin(int pin) {
+		this.pin = pin;
+	}
 	
 	public String getId() {
 		return id;
@@ -65,18 +75,6 @@ public class Identify {
 
 }
 
-class Pin {
-	private int pin;
 
-	public Pin(int pin) {
-		this.pin = pin;
-	}
-	
-	public int getPin() {
-		return pin;
-	}
 
-	public void setPin(int pin) {
-		this.pin = pin;
-	}
-}
+

@@ -103,13 +103,35 @@ public class Management {
 					System.out.print("사용할 비밀번호 4자리 숫자를 입력해주세요 : ");
 					pin = sc.nextInt();
 					sc.nextLine();
-					if (!((pin % 1000) >= 1)) {
-						System.out.println("잘못 입력하셨습니다.");
+					if (!((pin / 1000) >= 1)) {
+						System.out.println("다시 입력해주세요.");
 						continue;
+					}else {
+						identify.setPin(pin);
+						break;
 					}
-					
 				} while (true);
-				
+				//이름 나이 성별 아이디 비밀번호 모두 입력받았다면?
+				System.out.println("회원가입을 확정하시겠습니까? ( Y / N )");
+				answer = sc.nextLine();
+				if (answer.equals("Y") || answer.equals("y")) {
+					membersIdcheck.add(identify);
+					System.out.println("성공적으로 가입되셨습니다.");
+					System.out.println("회원정보"
+							+ "\n1. 이름 : " + identify.getId()
+							+ "\n2. 성별 : " + identify.getSex()
+							+ "\n3. 나이 : " + identify.getAge()
+							+ "\n4. 아이디 : " + identify.getId()
+							+ "\n5. 비밀번호 : " + identify.getPin()
+							+ "\n 기본적으로 1,000원이 주어집니다.");
+					break;
+				}else if (answer.equals("N") || answer.equals("n")) {
+					System.out.println("메인 메뉴로 이동합니다.");
+					break;
+				}else {
+					System.out.println("잘못 누르셨습니다. 다시 눌러주세요.");
+				}
+				membersIdcheck.add(identify);
 			}else if(answer.equals("N") || answer.equals("n")) {
 				System.out.println("메인 메뉴로 이동합니다.");
 				break;
