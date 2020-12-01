@@ -14,8 +14,17 @@ public class Identify {
 	private String id;
 	private int pin;
 	
-	public int getPin() {
-		return pin;
+	public int getMoney() {
+		return money;
+	}
+
+	public void setMoney(int money) {
+		this.money = money;
+	}
+
+	public  String getPin() {
+		String strpin = "" + (pin / 1000) + "***";
+		return strpin;
 	}
 
 	public void setPin(int pin) {
@@ -57,6 +66,15 @@ public class Identify {
 	public String getAge() {
 		return age;
 	}
+	
+	public void getAllInfo() {
+		System.out.println("조회하신 ID 정보입니다." 
+				+ "\n ID : " + getId()
+				+ "\n User Name : " + getName()
+				+ "\n Age : " + getAge()
+				+ "\n Sex : " + getSex()
+				+ "\n Money : " + getMoney() + "원");
+	}
 
 	public void setAge(String age) throws IllegalAgeException{
 		String temp = age;
@@ -72,6 +90,8 @@ public class Identify {
 		}
 		this.age = age;
 	}
+	
+	
 
 }
 
