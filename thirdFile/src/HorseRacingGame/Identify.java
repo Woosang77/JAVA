@@ -21,10 +21,14 @@ public class Identify {
 	public void setMoney(int money) {
 		this.money = money;
 	}
-
-	public  String getPin() {
+	
+	public  String showPin() {
 		String strpin = "" + (pin / 1000) + "***";
 		return strpin;
+	}
+
+	public  int getPin() {
+		return pin;
 	}
 
 	public void setPin(int pin) {

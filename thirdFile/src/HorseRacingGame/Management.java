@@ -5,6 +5,7 @@ import java.util.*;
 public class Management {
 	
 	List<Identify> membersIdcheck = new ArrayList<Identify>();
+	Identify identify = new Identify();
 	Scanner sc = new Scanner(System.in);
 	
 	public void menu() {
@@ -15,15 +16,16 @@ public class Management {
 					+"\n"
 					+ "\n1. Game start"
 					+ "\n2. Sign up"
-					+ "\n3. My page"
-					+ "\n4. I'm out");	
+					+ "\n3. User Lookup"
+					+ "\n4. Modify User Information"
+					+ "\n5. I'm out");	
 			System.out.println();
 			System.out.print("Press number : ");
 			num = sc.nextInt();
 			sc.nextLine();
-			if(num < 1 || num > 4) {
+			if(num < 1 || num > 5) {
 				System.out.println("Press number again");
-			}else if(num == 4) {
+			}else if(num == 5) {
 				System.out.println("Bye");
 				break;
 			}
@@ -36,16 +38,20 @@ public class Management {
 				signing();
 				break;
 			case 3:
-				//마이페이지
-				myPageModifying();
+				//사용자 조회
+				UserLookup();
 				break;
+			case 4:
+				modifying();
+				break;
+				//유저 정보수정
+				
 			}
 		} while (true);
 	}
 	
 	//게임 사용자 등록(이름, 성별, 나이 // 이상 없으면 비밀번호 입력받기(마이페이지 이용하기))
 	void signing() {
-		Identify identify = new Identify();
 		String name;
 		String sex;
 		String age;
@@ -99,11 +105,14 @@ public class Management {
 					+ "\n성별 : " + identify.getSex()
 					+ "\n생년월일 : " + identify.getAge());
 			
-			//아이디 설정 (중복있나 확인 할거임)
+			//아이디 설정
 			do {
 				System.out.print("등록할 아이디를 눌러주세요 : ");
 				id = sc.nextLine();
 				flags = idchecking(id);
+				if (flags) {
+					System.out.println("아이디가 중복되었습니다.");
+				}
 			} while (flags);
 			identify.setId(id);
 			System.out.println("아이디 등록이 완료되었습니다.");
@@ -143,14 +152,14 @@ public class Management {
 					+ "\n2. 성별 : " + identify.getSex()
 					+ "\n3. 나이 : " + identify.getAge()
 					+ "\n4. 아이디 : " + identify.getId()
-					+ "\n5. 비밀번호 : " + identify.getPin() + "\n"
+					+ "\n5. 비밀번호 : " + identify.showPin() + "\n"
 					+ "\n 기본적으로 1,000원이 주어집니다." + "\n");
 			break;
 		} while (true);
 	}
 	
 	//사용자 정보조회
-	void myPageModifying() {
+	void UserLookup() {
 		do {
 			boolean check;
 			System.out.print("정보조회를 하시겠습니까? ( Y / N )");
@@ -164,7 +173,7 @@ public class Management {
 				System.out.println("조회를 취소합니다.");
 				break;
 			}
-			System.out.print("조회하실 정보의 아이디를 입력해주세요 : ");
+			System.out.print("ID : ");
 			String findId = sc.nextLine();
 			for (Identify identify : membersIdcheck) {
 				String compareId = identify.getId();
@@ -174,16 +183,31 @@ public class Management {
 				}
 			}
 			if (check) {
-				System.out.println("요청하신 아이디의 정보가 없습니다.");
+				System.out.println("ID doesn't exist.");
 			}
 		} while (true);
 	}
+	//유저 정보 수정
+	void modifying() {
+		String m_ID;
+		boolean flags;
+		int m_pw;
+		System.out.print("ID : ");
+		m_ID = sc.nextLine();
+		flags = idchecking(m_ID);
+		if (!flags) {System.out.println("ID doesn't exist.");}
+		do {
+			for (int i = 0; i < 5; i++) {
+				System.out.print("ID : " + m_ID + "" + "\n PW : ");
+				 m_pw = sc.nextInt();
+			}
+		} while (flags);
+	}
 	
-	//아이디 중복검사
+	//아이디 중복확인
 	boolean idchecking(String id) {
 		for (Identify checkmember : membersIdcheck) {
 			if (id.equals(checkmember.getId())) {
-				System.out.println("아이디가 중복되었습니다. 다른 아이디를 등록해주세요.");
 				return true;
 			}
 		}
