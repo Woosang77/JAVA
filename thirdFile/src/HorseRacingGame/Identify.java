@@ -87,7 +87,8 @@ public class Identify {
 			 birth = sdf.parse(temp);
 		} catch (ParseException e) {e.getStackTrace();}
 		cal1.setTime(birth);
-		now.add(Calendar.YEAR, -19);
+		int today = Calendar.YEAR;
+		now.add(today, -19);
 		if (cal1.after(now)) {
 			throw new IllegalAgeException(sdf.format(now.getTime())
 					+ " 이후 태생인 사용자는 19세 미만이므로 서비스 이용이 불가능 합니다.");
@@ -95,6 +96,10 @@ public class Identify {
 		this.age = age;
 	}
 	
+	//1982-12-02 이후 태생인 사용자는 19세 미만이므로 서비스 이용이 불가능 합니다.
+	//날짜의 기준이 19년씩 줄어든것이 복구가 안됨.
+	//오류잡기
+	//		now.add(Calendar.YEAR, -19); 수정필요
 	
 
 }

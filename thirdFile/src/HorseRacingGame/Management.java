@@ -3,8 +3,8 @@ package HorseRacingGame;
 import java.util.*;
 
 public class Management {
-	
-	List<Identify> membersIdcheck = new ArrayList<Identify>();
+	HashMap<String, Identify> members = new HashMap<>();
+
 	Identify identify = new Identify();
 	Scanner sc = new Scanner(System.in);
 	
@@ -100,11 +100,7 @@ public class Management {
 				System.out.println(e.getMessage() +
 						"\n처음으로 돌아갑니다.");
 				continue;
-			}
-			System.out.println("이름 : " + identify.getName()
-					+ "\n성별 : " + identify.getSex()
-					+ "\n생년월일 : " + identify.getAge());
-			
+			}			
 			//아이디 설정
 			do {
 				System.out.print("등록할 아이디를 눌러주세요 : ");
@@ -145,7 +141,7 @@ public class Management {
 					break breakOut;
 				}else if(check) {break;}
 			} while (true);
-			membersIdcheck.add(identify);
+			members.put(identify.getId(), identify);
 			System.out.println("성공적으로 가입되셨습니다.");
 			System.out.println("	<회원정보>		"
 					+ "\n1. 이름 : " + identify.getName()
@@ -162,6 +158,8 @@ public class Management {
 	void UserLookup() {
 		do {
 			boolean check;
+			Set<String> idSet = members.keySet();
+			Iterator<String> iter = idSet.iterator();
 			System.out.print("정보조회를 하시겠습니까? ( Y / N )");
 			try {
 				check = checkYesNo(sc.nextLine());				
@@ -175,11 +173,13 @@ public class Management {
 			}
 			System.out.print("ID : ");
 			String findId = sc.nextLine();
-			for (Identify identify : membersIdcheck) {
-				String compareId = identify.getId();
-				if (findId.equals(compareId)) {
+			while (iter.hasNext()) {
+				String valueId = iter.next();
+				if (findId.equals(valueId)) {
+					identify = members.get(valueId);
 					identify.getAllInfo();
 					check = false;
+					break;
 				}
 			}
 			if (check) {
@@ -187,6 +187,7 @@ public class Management {
 			}
 		} while (true);
 	}
+	
 	//유저 정보 수정
 	void modifying() {
 		String m_ID;
@@ -206,8 +207,11 @@ public class Management {
 	
 	//아이디 중복확인
 	boolean idchecking(String id) {
-		for (Identify checkmember : membersIdcheck) {
-			if (id.equals(checkmember.getId())) {
+		Set<String> idSet = members.keySet();
+		Iterator<String> iter = idSet.iterator();
+		while(iter.hasNext()) {
+			String iterId = iter.next();
+			if (id.equals(iterId)) {
 				return true;
 			}
 		}
