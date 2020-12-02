@@ -43,9 +43,7 @@ public class Identify {
 		this.id = id;
 	}
 
-	Calendar cal1 = Calendar.getInstance();
-	Calendar now = Calendar.getInstance();
-	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
 	
 	public String getName() {
 		return name;
@@ -81,6 +79,9 @@ public class Identify {
 	}
 
 	public void setAge(String age) throws IllegalAgeException{
+		Calendar cal1 = Calendar.getInstance();
+		Calendar now = Calendar.getInstance();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		String temp = age;
 		Date birth = null;
 		try {
