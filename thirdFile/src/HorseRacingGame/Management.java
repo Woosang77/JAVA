@@ -4,8 +4,10 @@ import java.util.*;
 
 public class Management {
 	HashMap<String, Identify> members = new HashMap<>();
-
-	Identify identify = new Identify();
+	Set<String> idSet = members.keySet();
+	Iterator<String> iter = idSet.iterator();
+	Identify setIdentify = new Identify();
+	Identify getIdentify = new Identify();
 	Scanner sc = new Scanner(System.in);
 	
 	public void menu() {
@@ -76,13 +78,13 @@ public class Management {
 			//이름
 			System.out.print("이름 : ");
 			name = sc.nextLine();
-			identify.setName(name);
+			setIdentify.setName(name);
 			
 			//성별
 			System.out.print("성별( 남 / 여 ) : ");
 			sex = sc.nextLine();
 			try {
-				identify.setSex(sex);
+				setIdentify.setSex(sex);
 			} catch (SexUnclearException e) {
 				System.out.println(e.getMessage()
 						 + "\n처음으로 돌아갑니다.");
@@ -95,7 +97,7 @@ public class Management {
 					+ "\n입력 : ");
 			age = sc.nextLine();
 			try {
-				identify.setAge(age);					
+				setIdentify.setAge(age);					
 			} catch (IllegalAgeException e) {
 				System.out.println(e.getMessage() +
 						"\n처음으로 돌아갑니다.");
@@ -110,7 +112,7 @@ public class Management {
 					System.out.println("아이디가 중복되었습니다.");
 				}
 			} while (flags);
-			identify.setId(id);
+			setIdentify.setId(id);
 			System.out.println("아이디 등록이 완료되었습니다.");
 			
 			//비밀번호 설정(pin 4자리)
@@ -122,14 +124,14 @@ public class Management {
 					System.out.println("다시 입력해주세요.");
 					continue;
 				}else {
-					identify.setPin(pin);
+					setIdentify.setPin(pin);
 					break;
 				}
 			} while (true);
 			//이름 나이 성별 아이디 비밀번호 모두 입력받았다면?
 			do {				
 				boolean check = true;
-				System.out.println("회원가입을 확정하시겠습니까? ( Y / N )");
+				System.out.print("회원가입을 확정하시겠습니까? ( Y / N )");
 				answer = sc.nextLine();
 				try {				
 					check = checkYesNo(answer);
@@ -141,14 +143,14 @@ public class Management {
 					break breakOut;
 				}else if(check) {break;}
 			} while (true);
-			members.put(identify.getId(), identify);
+			members.put(id, setIdentify);
 			System.out.println("성공적으로 가입되셨습니다.");
 			System.out.println("	<회원정보>		"
-					+ "\n1. 이름 : " + identify.getName()
-					+ "\n2. 성별 : " + identify.getSex()
-					+ "\n3. 나이 : " + identify.getAge()
-					+ "\n4. 아이디 : " + identify.getId()
-					+ "\n5. 비밀번호 : " + identify.showPin() + "\n"
+					+ "\n1. 이름 : " + setIdentify.getName()
+					+ "\n2. 성별 : " + setIdentify.getSex()
+					+ "\n3. 나이 : " + setIdentify.getAge()
+					+ "\n4. 아이디 : " + setIdentify.getId()
+					+ "\n5. 비밀번호 : " + setIdentify.showPin() + "\n"
 					+ "\n 기본적으로 1,000원이 주어집니다." + "\n");
 			break;
 		} while (true);
@@ -158,8 +160,6 @@ public class Management {
 	void UserLookup() {
 		do {
 			boolean check;
-			Set<String> idSet = members.keySet();
-			Iterator<String> iter = idSet.iterator();
 			System.out.print("정보조회를 하시겠습니까? ( Y / N )");
 			try {
 				check = checkYesNo(sc.nextLine());				
@@ -173,16 +173,12 @@ public class Management {
 			}
 			System.out.print("ID : ");
 			String findId = sc.nextLine();
-			while (iter.hasNext()) {
-				String valueId = iter.next();
-				if (findId.equals(valueId)) {
-					identify = members.get(valueId);
-					identify.getAllInfo();
-					check = false;
-					break;
-				}
-			}
+			check = idchecking(findId);
 			if (check) {
+				getIdentify = members.get(findId);
+				getIdentify.getAllInfo();
+				break;
+			}else if (!check) {
 				System.out.println("ID doesn't exist.");
 			}
 		} while (true);
@@ -207,11 +203,9 @@ public class Management {
 	
 	//아이디 중복확인
 	boolean idchecking(String id) {
-		Set<String> idSet = members.keySet();
-		Iterator<String> iter = idSet.iterator();
-		while(iter.hasNext()) {
-			String iterId = iter.next();
-			if (id.equals(iterId)) {
+		Set<String> set = members.keySet();
+		for (String string : set) {
+			if (id.equals(string)) {
 				return true;
 			}
 		}
