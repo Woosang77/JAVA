@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Identify {
+public class Identify implements Cloneable{
 	
 	private int money = 1000;
 	private String name;
@@ -13,6 +13,11 @@ public class Identify {
 	private String age;
 	private String id;
 	private int pin;
+	
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
 	
 	public int getMoney() {
 		return money;
@@ -70,12 +75,11 @@ public class Identify {
 	}
 	
 	public void getAllInfo() {
-		System.out.println("조회하신 ID 정보입니다." 
-				+ "\n ID : " + getId()
-				+ "\n User Name : " + getName()
-				+ "\n Age : " + getAge()
-				+ "\n Sex : " + getSex()
-				+ "\n Money : " + getMoney() + "원");
+		System.out.println(" 1. ID : " + getId()
+				+ "\n 2. User Name : " + getName()
+				+ "\n 3. Age : " + getAge()
+				+ "\n 4. Sex : " + getSex()
+				+ "\n 5. Money : " + getMoney() + "원");
 	}
 
 	public void setAge(String age) throws IllegalAgeException{
@@ -96,13 +100,6 @@ public class Identify {
 		}
 		this.age = age;
 	}
-	
-	//1982-12-02 이후 태생인 사용자는 19세 미만이므로 서비스 이용이 불가능 합니다.
-	//날짜의 기준이 19년씩 줄어든것이 복구가 안됨.
-	//오류잡기
-	//		now.add(Calendar.YEAR, -19); 수정필요
-	
-
 }
 
 

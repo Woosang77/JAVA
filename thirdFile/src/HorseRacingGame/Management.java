@@ -4,12 +4,8 @@ import java.util.*;
 
 public class Management {
 	HashMap<String, Identify> members = new HashMap<>();
-	Set<String> idSet = members.keySet();
-	Iterator<String> iter = idSet.iterator();
-	Identify setIdentify = new Identify();
-	Identify getIdentify = new Identify();
 	Scanner sc = new Scanner(System.in);
-	
+	Identify getIdentify;
 	public void menu() {
 		int num = 0;
 		System.out.println("=====Welcome=====");
@@ -54,6 +50,7 @@ public class Management {
 	
 	//게임 사용자 등록(이름, 성별, 나이 // 이상 없으면 비밀번호 입력받기(마이페이지 이용하기))
 	void signing() {
+		Identify setIdentify = new Identify();
 		String name;
 		String sex;
 		String age;
@@ -63,7 +60,8 @@ public class Management {
 		
 		breakOut :
 		do {	
-			System.out.print("신규 이용자 가입을 하시겠습니까? ( Y / N )");
+			System.out.println("=================");
+			System.out.print("신규 이용자 가입을 하시겠습니까? ( Y / N ) : ");
 			String answer = sc.nextLine();
 			try {
 				flags = checkYesNo(answer);				
@@ -105,11 +103,12 @@ public class Management {
 			}			
 			//아이디 설정
 			do {
+				System.out.println("===============");
 				System.out.print("등록할 아이디를 눌러주세요 : ");
 				id = sc.nextLine();
 				flags = idchecking(id);
 				if (flags) {
-					System.out.println("아이디가 중복되었습니다.");
+					System.out.println("중복되는 아이디가 존재합니다.");
 				}
 			} while (flags);
 			setIdentify.setId(id);
@@ -117,6 +116,7 @@ public class Management {
 			
 			//비밀번호 설정(pin 4자리)
 			do {
+				System.out.println("===============");
 				System.out.print("사용할 비밀번호 4자리 숫자를 입력해주세요 : ");
 				pin = sc.nextInt();
 				sc.nextLine();
@@ -129,9 +129,10 @@ public class Management {
 				}
 			} while (true);
 			//이름 나이 성별 아이디 비밀번호 모두 입력받았다면?
-			do {				
+			do {
+				System.out.println("===============");
 				boolean check = true;
-				System.out.print("회원가입을 확정하시겠습니까? ( Y / N )");
+				System.out.print("회원가입을 확정하시겠습니까? ( Y / N ) : ");
 				answer = sc.nextLine();
 				try {				
 					check = checkYesNo(answer);
@@ -158,8 +159,10 @@ public class Management {
 	
 	//사용자 정보조회
 	void UserLookup() {
+		getIdentify = new Identify();
 		do {
 			boolean check;
+			System.out.println("===============");
 			System.out.print("정보조회를 하시겠습니까? ( Y / N )");
 			try {
 				check = checkYesNo(sc.nextLine());				
@@ -176,6 +179,7 @@ public class Management {
 			check = idchecking(findId);
 			if (check) {
 				getIdentify = members.get(findId);
+				System.out.println("===============");
 				getIdentify.getAllInfo();
 				break;
 			}else if (!check) {
@@ -186,22 +190,151 @@ public class Management {
 	
 	//유저 정보 수정
 	void modifying() {
-		String m_ID;
+		getIdentify = new Identify();
+		Identify changeIdentify = new Identify();
+		String m_ID = null;
+		int try_pw;
+		int count;
+		boolean check =  true;
 		boolean flags;
-		int m_pw;
-		System.out.print("ID : ");
-		m_ID = sc.nextLine();
-		flags = idchecking(m_ID);
-		if (!flags) {System.out.println("ID doesn't exist.");}
+		
 		do {
-			for (int i = 0; i < 5; i++) {
-				System.out.print("ID : " + m_ID + "" + "\n PW : ");
-				 m_pw = sc.nextInt();
+			System.out.println("===============");
+			System.out.print("ID : ");
+			m_ID = sc.nextLine();
+			flags = idchecking(m_ID);
+			if (!flags) {
+				System.out.println("ID doesn't exist.");
+				continue;
 			}
-		} while (flags);
+			getIdentify = members.get(m_ID);
+			int real_pw = getIdentify.getPin();
+			for (count = 0; count < 5; count++) {
+				System.out.print("PW : ");
+				 try_pw = sc.nextInt();
+				 sc.nextLine();
+				 if (try_pw == real_pw) {
+					 System.out.println("정보수정으로 이동합니다.");
+					 break;
+				}else {
+					System.out.println("비밀번호를 "+(count +1)+ "회 틀리셨습니다.");
+					System.out.print("비밀번호를 다시 입력하시겠습니까? ( Y / N )");
+					String answer  = sc.nextLine();
+					if (answer.equals("N") || answer.equals("n")) {
+						System.out.println("메인메뉴로 이동합니다.");
+						check = false;
+						break;
+					}
+				}
+			}
+			if (count == 4) {
+				System.out.println("메인메뉴로 이동합니다.");
+				break;
+			}
+			//여기부터 정보수정
+			while (check) {
+				String str;
+				System.out.println("===============");
+				getIdentify.getAllInfo();
+				System.out.print("변경하실 정보의 번호를 눌러주세요 : ");
+				int modifyInfo = sc.nextInt();
+				sc.nextLine();
+				if(modifyInfo < 1 || modifyInfo > 5) {
+					System.out.println("번호를 다시 눌러주세요.");
+					continue;
+				}else if (modifyInfo == 5) {
+					System.out.println("게임머니는 수정할 수 없습니다.");
+					continue;
+				}
+				switch (modifyInfo) {
+				case 1:
+					//아이디 변경
+					while (true) {
+						String id = getIdentify.getId();
+						System.out.print("<ID 변경>" 
+								+"\n변경 전 : " + id
+								+ "\n변경 : ");
+						str = sc.nextLine();
+						if (idchecking(str)) {
+							System.out.println("동일한 아이디가 존재합니다.");
+							continue;
+						}
+						try {
+							//value값 Identify객체 깊은 복사
+							getIdentify.setId(str);
+							changeIdentify = (Identify)getIdentify.clone();
+						} catch (CloneNotSupportedException e) {
+							System.out.println(e.getStackTrace());
+						}
+						members.put(str, changeIdentify);
+						members.remove(id);
+						System.out.println( "<변경완료>"
+								+ "\nID : " + changeIdentify.getId());
+						System.out.println("아이디 변경은 재부팅이 필요하여 메인메뉴부터 시작해주십이오.");
+						break;
+					}
+					break;
+				case 2:
+					//이름 변경
+					System.out.print("<이름 변경>" 
+					+"\n변경 전 : " + getIdentify.getName() 
+					+ "\n변경 : ");
+					str = sc.nextLine();
+					getIdentify.setName(str);
+					System.out.println( "<변경완료>"
+							+ "\nUser Name : " + getIdentify.getName());
+					break; 
+				case 3:
+					//생년월일변경
+					while (true) {
+						System.out.print("<생년월일 변경>" 
+								+"\n변경 전 : " + getIdentify.getAge()
+								+ "\n변경 : ");
+						str = sc.nextLine();
+						try {
+							getIdentify.setAge(str);							
+						} catch (IllegalAgeException e) {
+							e.getMessage();
+							System.out.println("다시 입력해주세요.");
+							continue;
+						}
+						System.out.println( "<변경완료>"
+								+ "\nAge : " + getIdentify.getAge());
+						break;
+					}
+					break;
+				case 4:
+					//성별 변경
+					while (flags) {						
+						System.out.print("<성별 변경>" 
+								+"\n변경 전 : " + getIdentify.getSex() 
+								+ "\n변경 ( 남 / 여 ) : ");
+						str = sc.nextLine();
+						try {
+							getIdentify.setSex(str);						
+						} catch (SexUnclearException e) {
+							e.getMessage();
+							continue;
+						}
+						System.out.println( "<변경완료>"
+								+ "\nSex : " + getIdentify.getSex());
+						break;
+					}
+					break;
+				}
+				System.out.print("다른 정보를 추가로 수정하시겠습니까? ( Y / N ) : ");
+				str = sc.nextLine();
+				try {
+					check = checkYesNo(str);					
+				} catch (WrongAnswerException e) {
+					System.out.println("Y / N 로 응답해주십시오.");
+					check = false;
+				}
+			}
+		} while (flags && check);
 	}
 	
-	//아이디 중복확인
+	//아이디 확인
 	boolean idchecking(String id) {
 		Set<String> set = members.keySet();
 		for (String string : set) {
@@ -222,4 +355,6 @@ public class Management {
 			throw new WrongAnswerException();
 		}
 	}
+	
+	
 }
