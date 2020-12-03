@@ -6,6 +6,7 @@ public class Management {
 	HashMap<String, Identify> members = new HashMap<>();
 	Scanner sc = new Scanner(System.in);
 	Identify getIdentify;
+	Gaming gaming;
 	public void menu() {
 		int num = 0;
 		System.out.println("=====Welcome=====");
@@ -30,7 +31,31 @@ public class Management {
 			switch (num) {
 			case 1:
 				//게임시작
-				break;
+				getIdentify = new Identify();
+				System.out.print("등록되어있는 아이디와 비밀번호를 입력해주세요"
+						+ "\nID : ");
+				String str = sc.nextLine();
+				if (idchecking(str)) {
+					getIdentify = members.get(str);
+					System.out.print("PW : ");
+					int try_pw = sc.nextInt();
+					sc.nextLine();
+					if (try_pw == getIdentify.getPin()) {
+						gaming = new Gaming();
+						gaming.gameStarting(getIdentify);
+						break;
+					}else {
+						System.out.print("비밀번호를 다시 입력하시겠습니까? ( Y / N )");
+						String answer  = sc.nextLine();
+						if (answer.equals("N") || answer.equals("n")) {
+							System.out.println("메인메뉴로 이동합니다.");
+							break;
+						}
+					}
+				}else {
+					System.out.println("등록되지 않은 아이디입니다.");
+					break;
+				}
 			case 2:
 				//게임 사용자 등록
 				signing();
@@ -40,15 +65,14 @@ public class Management {
 				UserLookup();
 				break;
 			case 4:
+				//유저 정보수정
 				modifying();
 				break;
-				//유저 정보수정
-				
 			}
 		} while (true);
 	}
 	
-	//게임 사용자 등록(이름, 성별, 나이 // 이상 없으면 비밀번호 입력받기(마이페이지 이용하기))
+	//게임 사용자 등록
 	void signing() {
 		Identify setIdentify = new Identify();
 		String name;
@@ -239,10 +263,10 @@ public class Management {
 				System.out.print("변경하실 정보의 번호를 눌러주세요 : ");
 				int modifyInfo = sc.nextInt();
 				sc.nextLine();
-				if(modifyInfo < 1 || modifyInfo > 5) {
+				if(modifyInfo < 1 || modifyInfo > 6) {
 					System.out.println("번호를 다시 눌러주세요.");
 					continue;
-				}else if (modifyInfo == 5) {
+				}else if (modifyInfo == 6) {
 					System.out.println("게임머니는 수정할 수 없습니다.");
 					continue;
 				}
@@ -321,6 +345,23 @@ public class Management {
 						break;
 					}
 					break;
+				case 5:
+					//비밀번호 변경
+					do {
+						System.out.print("<비밀번호 변경>" 
+								+"\n변경 전 : " + getIdentify.getPin() 
+								+ "\n변경  : ");
+						int pw = sc.nextInt();
+						sc.nextLine();
+						if (!((pw / 1000) >= 1)) {
+							System.out.println("다시 입력해주세요.");
+							continue;
+						}else {
+							getIdentify.setPin(pw);
+							break;
+						}
+					} while (true);
+					break;
 				}
 				System.out.print("다른 정보를 추가로 수정하시겠습니까? ( Y / N ) : ");
 				str = sc.nextLine();
@@ -355,6 +396,4 @@ public class Management {
 			throw new WrongAnswerException();
 		}
 	}
-	
-	
 }

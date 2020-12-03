@@ -79,7 +79,8 @@ public class Identify implements Cloneable{
 				+ "\n 2. User Name : " + getName()
 				+ "\n 3. Age : " + getAge()
 				+ "\n 4. Sex : " + getSex()
-				+ "\n 5. Money : " + getMoney() + "¿ø");
+				+ "\n 5. Pin : " + getPin()
+				+ "\n 6. Money : " + getMoney() + "¿ø");
 	}
 
 	public void setAge(String age) throws IllegalAgeException{

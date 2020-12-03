@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="java.util.Objects"/>
-<fullyQualifiedTypeName name="Practice.Lesson.HashcodeExample.Student"/>
-<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.BeepThread"/>
-<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadB"/>
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Priority.CalcThread"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Synchronized.Calculator"/>
@@ -39,12 +34,9 @@
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="HorseRacingUsingThread.Horse"/>
 <fullyQualifiedTypeName name="HorseRacingUsingThread.Rank"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="HorseRacingGame.Management"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.text.ParseException"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="HorseRacingGame.Pin"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -53,11 +45,19 @@
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="HorseRacingGame.Identify"/>
-<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollBarUI"/>
 <fullyQualifiedTypeName name="HorseRacingGame.SexUnclearException"/>
 <fullyQualifiedTypeName name="HorseRacingGame.IllegalAgeException"/>
 <fullyQualifiedTypeName name="HorseRacingGame.WrongAnswerException"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+<fullyQualifiedTypeName name="java.util.Objects"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="HorseRacingGame.Gaming"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="HorseRacingGame.Management"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollBarUI"/>
+<fullyQualifiedTypeName name="HorseRacingGame.Identify"/>
 </qualifiedTypeNameHistroy>
