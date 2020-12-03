@@ -9,6 +9,7 @@ public class Gaming {
 	Management method = new Management();
 	
 	public void gameStarting(Identify identify) {
+		boolean playable = false;
 		userIdentify = identify;
 		do {
 			System.out.println(userIdentify.getName() + "님 환영합니다.");
@@ -31,7 +32,7 @@ public class Gaming {
 					System.out.println("현재 재고가 최소배팅금액보다 적으므로 참여하실 수 없습니다.");
 					break;
 				}
-				System.out.println("배팅을 하시겠습니까?");
+				System.out.print("배팅을 하시겠습니까? ( Y / N )");
 				String yn = sc.nextLine();
 				try {
 					flag = method.checkYesNo(yn);
@@ -42,19 +43,29 @@ public class Gaming {
 					System.out.println("이전화면으로 이동합니다.");
 					break;
 				}
-				betting(userIdentify);
-				System.out.println(money);
+				money = betting(userIdentify);
+				playable = true;
+				//오류 확인용
+				System.out.println("현재 배팅액 : " + money + "원");
 				break;
 			
 			case 2:
-				//경기장	(경기시작전에 유저가 배팅을 했는지 파악 후 안했으면 경기진행 불가)
+				//경기장	
+				if (playable) {
+					System.out.print("몇번 말에게 배팅하시겠습니까?(1~10) : ");
+					int expectWin = sc.nextInt();
+					
+					racing();
+				}else {
+					System.out.println("배팅을 하지 않으면 게임에 참여하실 수 없습니다.");
+				}
 				break;
 
 			}
 		} while (true);
 	}
-	
-	void betting(Identify identify) {
+	//배팅금액 기준
+	int betting(Identify identify) {
 		do {
 			userIdentify = identify;
 			System.out.println("최소 배팅금액은 100원이며 20원단위로 올라갑니다.");
@@ -70,10 +81,11 @@ public class Gaming {
 				System.out.println("20원단위로 배팅해주십시오.");
 				continue;
 			}
-			break;
+			return money;
 		} while (true);
-		
-		
+	}
+	
+	void racing() {
 		
 	}
 }
