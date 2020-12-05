@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Priority.CalcThread"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Synchronized.Calculator"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Synchronized.User1"/>
@@ -53,11 +52,12 @@
 <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
 <fullyQualifiedTypeName name="java.util.Objects"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="HorseRacingGame.Gaming"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="HorseRacingGame.Management"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollBarUI"/>
 <fullyQualifiedTypeName name="HorseRacingGame.Identify"/>
+<fullyQualifiedTypeName name="HorseRacingGame.Gaming"/>
+<fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
 </qualifiedTypeNameHistroy>

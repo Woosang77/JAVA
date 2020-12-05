@@ -56,6 +56,7 @@ public class Management {
 					System.out.println("등록되지 않은 아이디입니다.");
 					break;
 				}
+				break;
 			case 2:
 				//게임 사용자 등록
 				signing();
