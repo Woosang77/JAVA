@@ -1,9 +1,0 @@
-package Practice.Lesson.ThreadPart.Function.E04_wait_notify;
-
-public class DataBox {
-	private String data;
-	
-	public String getData() {
-		
-	}
-}

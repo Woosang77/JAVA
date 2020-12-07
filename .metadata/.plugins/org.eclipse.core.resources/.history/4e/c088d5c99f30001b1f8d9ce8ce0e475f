@@ -1,8 +1,0 @@
-package Practice.Lesson.ThreadPart.Function;
-
-public class YieldExample {
-/*yield는 두 개 이상의 스레드 중 한 스레드가 무의미한 반복중일 경우,
- * 다른 스레드에게 실행을 양보하고, 자신은 실행 대기 상태로 간다.
- */
-	
-}
