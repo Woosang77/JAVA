@@ -11,11 +11,11 @@ public class Gaming {
 	
 	//management에서 1번 누르고 아이디 가지고 들어옴
 	public void gameStarting(Identify identify) {
-		boolean playable = false;
 		boolean flag = true;
 		userIdentify = identify;
-		int account = userIdentify.getMoney();
+		boolean playable = false;
 		do {
+			int account = userIdentify.getMoney();
 			System.out.println("===============");
 			System.out.println(userIdentify.getName() + "님 환영합니다.");
 			System.out.println("===============");
@@ -53,10 +53,7 @@ public class Gaming {
 				}
 				money = betting(userIdentify);
 				userIdentify.setMoney(account - money);
-				System.out.println("중간 결과" + userIdentify.getMoney());
 				playable = true;
-				//오류 확인용
-				System.out.println("현재 배팅액 : " + money + "원");
 				break;
 			
 			case 2:
@@ -84,14 +81,13 @@ public class Gaming {
 					racing();
 					money = (int)playing(expectWin, money);
 					Horse.cleanMemory();
-					System.out.println(money);	//경기 경과에 맞게 배당이 나옴
-					userIdentify.setMoney(account + money);
+					userIdentify.setMoney(userIdentify.getMoney() + money);
 					System.out.println(userIdentify.getMoney());
+					playable = false;
 				}else {
 					System.out.println("배팅을 하지 않으면 게임에 참여하실 수 없습니다.");
 				}
 				break;
-
 			}
 		} while (true);
 	}

@@ -3,7 +3,6 @@ package HorseRacingGame;
 public class Horse extends Thread{
 	
 	public static String[] rankArray = new String[10];
-	//두번 연속으로 실행하면 배열이 초기화가 안되는 오류가 있음 일련의 동작이 끝나고 초기화하자
 	public int ranking;
 	private static int Num = 0;
 	private static int Rank = 1;
