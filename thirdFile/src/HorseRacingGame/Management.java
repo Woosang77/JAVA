@@ -17,20 +17,22 @@ public class Management {
 					+ "\n2. Sign up"
 					+ "\n3. User Lookup"
 					+ "\n4. Modify User Information"
-					+ "\n5. I'm out");	
+					+ "\n5. Personal Bankruptcy"
+					+ "\n6. I'm out");	
 			System.out.println();
 			System.out.print("Press number : ");
 			num = sc.nextInt();
 			sc.nextLine();
-			if(num < 1 || num > 5) {
+			if(num < 1 || num > 6) {
 				System.out.println("Press number again");
-			}else if(num == 5) {
+			}else if(num == 6) {
 				System.out.println("Bye");
 				break;
 			}
 			switch (num) {
+
+			//게임시작
 			case 1:
-				//게임시작
 				getIdentify = new Identify();
 				System.out.print("등록되어있는 아이디와 비밀번호를 입력해주세요"
 						+ "\nID : ");
@@ -57,17 +59,25 @@ public class Management {
 					break;
 				}
 				break;
+				
+			//게임 사용자 등록
 			case 2:
-				//게임 사용자 등록
 				signing();
 				break;
+				
+			//사용자 조회
 			case 3:
-				//사용자 조회
 				UserLookup();
 				break;
+				
+			//유저 정보수정
 			case 4:
-				//유저 정보수정
 				modifying();
+				break;
+				
+			//개인 파산신청
+			case 5:
+				//대출후 은행에 이자 포함 상환제도 계획
 				break;
 			}
 		} while (true);
@@ -362,6 +372,7 @@ public class Management {
 							break;
 						}
 					} while (true);
+					
 					break;
 				}
 				System.out.print("다른 정보를 추가로 수정하시겠습니까? ( Y / N ) : ");
