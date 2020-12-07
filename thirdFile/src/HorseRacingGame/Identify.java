@@ -79,7 +79,7 @@ public class Identify implements Cloneable{
 				+ "\n 2. User Name : " + getName()
 				+ "\n 3. Age : " + getAge()
 				+ "\n 4. Sex : " + getSex()
-				+ "\n 5. Pin : " + getPin()
+				+ "\n 5. Pin : " + showPin()
 				+ "\n 6. Money : " + getMoney() + "¿ø");
 	}
 
@@ -102,7 +102,3 @@ public class Identify implements Cloneable{
 		this.age = age;
 	}
 }
-
-
-
-

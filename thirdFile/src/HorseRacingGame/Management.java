@@ -188,7 +188,7 @@ public class Management {
 		do {
 			boolean check;
 			System.out.println("===============");
-			System.out.print("정보조회를 하시겠습니까? ( Y / N )");
+			System.out.print("정보조회를 하시겠습니까? ( Y / N ) : ");
 			try {
 				check = checkYesNo(sc.nextLine());				
 			} catch (WrongAnswerException e) {

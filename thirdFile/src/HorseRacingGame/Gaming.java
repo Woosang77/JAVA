@@ -28,6 +28,10 @@ public class Gaming {
 			int num = sc.nextInt(	);
 			sc.nextLine();
 			if (num == 3) {
+				if(playable) {
+					System.out.println("기존에 배팅한 금액을 반환합니다.");
+					userIdentify.setMoney(userIdentify.getMoney() + money);
+				}
 				System.out.println("메인 화면으로 이동합니다.");
 				break;
 			}
@@ -40,7 +44,7 @@ public class Gaming {
 					System.out.println("현재 재고가 최소배팅금액보다 적으므로 참여하실 수 없습니다.");
 					break;
 				}
-				System.out.print("배팅을 하시겠습니까? ( Y / N )");
+				System.out.print("배팅을 하시겠습니까? ( Y / N ) : ");
 				String yn = sc.nextLine();
 				try {
 					flag = method.checkYesNo(yn);
@@ -111,6 +115,7 @@ public class Gaming {
 				System.out.println("20원단위로 배팅해주십시오.");
 				continue;
 			}
+			System.out.println("배팅 완료되었습니다.");
 			return money;
 		} while (true);
 	}
