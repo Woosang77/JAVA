@@ -11,7 +11,8 @@ public class CompletionServiceExample {
 
 	public static void main(String[] args) {
 		//ThreadPoolExecutor 생성
-		ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+		ExecutorService executorService = Executors.newFixedThreadPool(
+				Runtime.getRuntime().availableProcessors());
 	
 		//위의 ThreadPoolExecutor(스레드풀 생성자)를 이용하는 ExecutorCompletionService 생성
 		CompletionService<Integer> completionService = new ExecutorCompletionService<Integer>(executorService);

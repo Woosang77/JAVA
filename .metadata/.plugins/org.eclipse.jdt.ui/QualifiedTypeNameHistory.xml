@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E04_wait_notify.ProducerThread"/>
-<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E04_wait_notify.ConsumerThread"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E05_stop.PrintThread1"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E05_stop.InterruptThread"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.Function.E05_stop.PrintThread2"/>
@@ -43,21 +41,23 @@
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="HorseRacingGame.Horse"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ThreadPoolExecutor"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ExecutionException"/>
-<fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.ResultByRunnableExample"/>
+<fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+<fullyQualifiedTypeName name="Task"/>
+<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.Result"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
 <fullyQualifiedTypeName name="java.lang.Runtime"/>
-<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.ResultByRunnableExample"/>
-<fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+<fullyQualifiedTypeName name="java.util.concurrent.CompletionService"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutorCompletionService"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
-<fullyQualifiedTypeName name="Task"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Future"/>
-<fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.Result"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
