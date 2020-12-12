@@ -1,6 +1,13 @@
 package HorseRacingGame;
 
 import java.util.Scanner;
+import java.util.concurrent.Callable;
+import java.util.concurrent.CompletionService;
+import java.util.concurrent.ExecutorCompletionService;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
 
 public class Gaming {
 	Scanner sc = new Scanner(System.in);
@@ -86,7 +93,8 @@ public class Gaming {
 					money = (int)playing(expectWin, money);
 					Horse.cleanMemory();
 					userIdentify.setMoney(userIdentify.getMoney() + money);
-					System.out.println(userIdentify.getMoney());
+					System.out.println();
+					System.out.println("배팅 후 잔액 : " + userIdentify.getMoney());
 					playable = false;
 				}else {
 					System.out.println("배팅을 하지 않으면 게임에 참여하실 수 없습니다.");
@@ -95,8 +103,6 @@ public class Gaming {
 			}
 		} while (true);
 	}
-	
-	
 	
 	//배팅금액 기준
 	int betting(Identify identify) {
@@ -120,57 +126,82 @@ public class Gaming {
 		} while (true);
 	}
 	
-	//말 달리기
+	//경기 시작
 	void racing() {
 		
-		Thread horseThread1 = new Horse("1");
-		Thread horseThread2 = new Horse("2");
-		Thread horseThread3 = new Horse("3");
-		Thread horseThread4 = new Horse("4");
-		Thread horseThread5 = new Horse("5");
-		Thread horseThread6 = new Horse("6");
-		Thread horseThread7 = new Horse("7");
-		Thread horseThread8 = new Horse("8");
-		Thread horseThread9 = new Horse("9");
-		Thread horseThread10 = new Horse("10");
+		ExecutorService executorService = Executors.newFixedThreadPool(
+				Runtime.getRuntime().availableProcessors());
+		CompletionService<Integer> completionService = new 
+				ExecutorCompletionService<>(executorService);
 		
-		horseThread1.start();
-		horseThread2.start();
-		horseThread3.start();
-		horseThread4.start();
-		horseThread5.start();
-		horseThread6.start();
-		horseThread7.start();
-		horseThread8.start();
-		horseThread9.start();
-		horseThread10.start();
+		for (int i = 1; i <= 10; i++) {
+			completionService.submit(new Callable<Integer>() {
+				Horse horse = new Horse(Horse.Num++);
+				
+				@Override
+				public Integer call() throws Exception {
+					while (true) {
+						int distance = (int)(Math.random() * 5) + 1;
+						horse.meter -= distance;
+						if (horse.meter <= 0) {
+							break;
+						}
+						System.out.println(horse.number + "번 말 남은 거리 : " + horse.meter);
+						int second = (int)(Math.random() * 3) + 1;
+						try {
+							Thread.sleep(second * 1000);
+						} catch (InterruptedException e) {				
+						}
+					}
+					System.out.println("       " + horse.number + "번 말 결승선 통과");
+					return horse.number;
+				}
+			});
+		}
 		
+		Future<int[]> future = executorService.submit(new Callable<int[]>() {
+			@Override
+			public int[] call() throws Exception {
+				int count = 0;
+				int[] arr = new int[10];
+				while (true) {
+					try {
+						Future<Integer> future =  completionService.take();
+						int value = future.get();
+						if (value != 0) {
+							arr[count] = value;
+							count += 1;
+						}
+						if (count == 10) {
+							System.out.println("=====경기 결과=====");
+							for (int i = 0; i < 10; i++) {
+								System.out.println("       " + (i + 1) + "등 : " + arr[i] + "번 말");
+							}
+							break;
+						}
+					} catch (Exception e) {}
+				}
+				return arr;
+			}
+		});
+
 		try {
-			horseThread1.join();
-			horseThread2.join();
-			horseThread3.join();
-			horseThread4.join();
-			horseThread5.join();
-			horseThread6.join();
-			horseThread7.join();
-			horseThread8.join();
-			horseThread9.join();
-			horseThread10.join();
-		} catch (InterruptedException e) {}
-		System.out.println("=====경기결과=====");
-		Horse.getRankArray();
+			int[]	result = future.get();
+			Horse.rankArray = result;
+		} catch (Exception e) {
+		}
+		executorService.shutdown();
 	}
 	
 	//돈 넣고 돈 따기
 	double playing(int horseNum, int money) {
 		
-		String num = "" + horseNum;
-		String[] arr = Horse.rankArray;
+		int[] arr = Horse.rankArray;
 		double betMoney = money;
 		int myHorseRank = 1;
 		
 		for (int i = 0; i < arr.length; i++) {
-			if (num.equals(arr[i])) {
+			if (horseNum == arr[i]) {
 				break;
 			}else {
 				myHorseRank++;
