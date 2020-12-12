@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-<fullyQualifiedTypeName name="HorseRacingUsingThread.Horse"/>
-<fullyQualifiedTypeName name="HorseRacingUsingThread.Rank"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.text.ParseException"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="HorseRacingGame.Pin"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
@@ -31,7 +20,6 @@
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ThreadPoolExecutor"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ExecutionException"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.ResultByRunnableExample"/>
 <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
@@ -39,7 +27,6 @@
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.Result"/>
 <fullyQualifiedTypeName name="java.lang.Void"/>
 <fullyQualifiedTypeName name="java.nio.channels.CompletionHandler"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.callback.CallbackExample"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
@@ -53,11 +40,24 @@
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.Yaya"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.Horse"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Future"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.Horses"/>
 <fullyQualifiedTypeName name="HorseRacingGame.Horse"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.Generic.Box"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.Generic.Apple"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.GenericType.Box"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.multi_type_parameter.Tv"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.multi_type_parameter.Product"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.multi_type_parameter.Car"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_method.Util"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_method.Box"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_method2.Pair"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_method2.Util"/>
+<fullyQualifiedTypeName name="Practice.Lesson.interFaceAbstract"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

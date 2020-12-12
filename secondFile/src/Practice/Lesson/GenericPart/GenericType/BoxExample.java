@@ -3,15 +3,18 @@ package Practice.Lesson.GenericPart.GenericType;
 public class BoxExample {
 
 	public static void main(String[] args) {
-		Box box = new Box();
+		//Box box = new Box(); 	이렇게 아무 타입을 지정하지 않으면 Object로 지정된다.
 		
-		box.set("홍길동");
-		//String의 홍길동이 저장되면서 Object으로 업캐스팅됨
+		Box<String> box = new Box<String>();
+		//box 변수에 담긴 Box객체의 모든 메소드는 String을 받는다.
 		
-		//String boj = box.get();	 Cannot convert from Object to String
-		String name = (String)box.get(); //강제 타입변환이 필요함
+		box.set("안녕");
+		String hi = box.get();
 		
-		box.set(new Apple());  		//Apple객체 또한 Object를 상속받기 때문에 대입에 에러가 없다.
+		
+		Box<Integer> box2 = new Box<>();
+		box2.set(150);
+		int num = box2.get();
 		
 	}
 
