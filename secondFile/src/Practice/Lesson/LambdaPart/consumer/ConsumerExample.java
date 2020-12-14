@@ -28,6 +28,7 @@ public class ConsumerExample {
 		//t는 제네릭으로 지정한 타입이고, i는 int로 고정되어있다.
 		ObjIntConsumer<String> objIntConsumer = (t, i) ->  System.out.println(t + i);
 		objIntConsumer.accept("java",  8);
+		
 	}
 
 }

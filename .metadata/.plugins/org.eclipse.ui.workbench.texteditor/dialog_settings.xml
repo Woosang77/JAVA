@@ -10,6 +10,7 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="F"/>
 		</list>
 		<list key="replacehistory">
 		</list>
