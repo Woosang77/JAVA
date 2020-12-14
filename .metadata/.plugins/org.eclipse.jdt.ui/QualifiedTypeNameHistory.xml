@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="HorseRacingGame.SexUnclearException"/>
-<fullyQualifiedTypeName name="HorseRacingGame.IllegalAgeException"/>
-<fullyQualifiedTypeName name="HorseRacingGame.WrongAnswerException"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.lang.Cloneable"/>
-<fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
-<fullyQualifiedTypeName name="java.util.Objects"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="HorseRacingGame.Management"/>
-<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollBarUI"/>
-<fullyQualifiedTypeName name="HorseRacingGame.Identify"/>
 <fullyQualifiedTypeName name="HorseRacingGame.Gaming"/>
 <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
@@ -41,12 +26,10 @@
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.Yaya"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.Horse"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Future"/>
 <fullyQualifiedTypeName name="Practice.Lesson.ThreadPart.ThreadPool.blocking.Horses"/>
 <fullyQualifiedTypeName name="HorseRacingGame.Horse"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.Generic.Box"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.Generic.Apple"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.GenericType.Box"/>
@@ -58,6 +41,23 @@
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_method2.Pair"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_method2.Util"/>
 <fullyQualifiedTypeName name="Practice.Lesson.interFaceAbstract"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Number"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.bounded_type.Util"/>
+<fullyQualifiedTypeName name="java.lang.Package"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_wildcard.Course"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_wildcard.Person"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_wildcard.Worker"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_wildcard.Student"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_wildcard.HighStudent"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_extends_implements.Product"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_extends_implements.ChildProduct"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_extends_implements.Storage"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_extends_implements.StorageImpl"/>
+<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_extends_implements.TV"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Practice.Lesson.LambdaPart.MyFunctionalInterface"/>
 </qualifiedTypeNameHistroy>
