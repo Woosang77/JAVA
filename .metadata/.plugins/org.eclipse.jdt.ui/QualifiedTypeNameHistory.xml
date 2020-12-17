@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.Generic.Apple"/>
-<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.GenericType.Box"/>
-<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.multi_type_parameter.Tv"/>
-<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.multi_type_parameter.Product"/>
-<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.multi_type_parameter.Car"/>
-<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_method.Util"/>
-<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_method.Box"/>
-<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_method2.Pair"/>
-<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_method2.Util"/>
-<fullyQualifiedTypeName name="Practice.Lesson.interFaceAbstract"/>
-<fullyQualifiedTypeName name="java.lang.Number"/>
-<fullyQualifiedTypeName name="java.lang.Double"/>
-<fullyQualifiedTypeName name="Practice.Lesson.GenericPart.bounded_type.Util"/>
 <fullyQualifiedTypeName name="java.lang.Package"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_wildcard.Course"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_wildcard.Person"/>
@@ -20,7 +7,6 @@
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_wildcard.Student"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_wildcard.HighStudent"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_extends_implements.Product"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_extends_implements.ChildProduct"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_extends_implements.Storage"/>
 <fullyQualifiedTypeName name="Practice.Lesson.GenericPart.generic_extends_implements.StorageImpl"/>
@@ -58,6 +44,20 @@
 <fullyQualifiedTypeName name="java.util.function.ToIntBiFunction"/>
 <fullyQualifiedTypeName name="java.util.function.Function"/>
 <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="Practice.Lesson.LambdaPart.comstructor_references.Member"/>
+<fullyQualifiedTypeName name="Practice.Lesson.interFaceAbstract"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Objects"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="Practice.Lesson.collection_framework.set.hashset.Member"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.net.URLDecoder"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

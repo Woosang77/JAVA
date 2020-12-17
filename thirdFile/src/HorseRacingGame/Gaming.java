@@ -128,11 +128,9 @@ public class Gaming {
 	
 	//경기 시작
 	void racing() {
-		
-		ExecutorService executorService = Executors.newFixedThreadPool(
-				Runtime.getRuntime().availableProcessors());
-		CompletionService<Integer> completionService = new 
-				ExecutorCompletionService<>(executorService);
+		//스레드 풀을 통한 멀티스레딩
+		ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+		CompletionService<Integer> completionService = new ExecutorCompletionService<>(executorService);
 		
 		for (int i = 1; i <= 10; i++) {
 			completionService.submit(new Callable<Integer>() {
@@ -141,15 +139,14 @@ public class Gaming {
 				@Override
 				public Integer call() throws Exception {
 					while (true) {
-						int distance = (int)(Math.random() * 5) + 1;
-						horse.meter -= distance;
+						horse.meter -= (int)(Math.random() * 5) + 1;
 						if (horse.meter <= 0) {
 							break;
 						}
 						System.out.println(horse.number + "번 말 남은 거리 : " + horse.meter);
-						int second = (int)(Math.random() * 3) + 1;
+						int sleepSec = (int)(Math.random() * 3) + 1;
 						try {
-							Thread.sleep(second * 1000);
+							Thread.sleep(sleepSec * 1000);
 						} catch (InterruptedException e) {				
 						}
 					}
@@ -163,25 +160,25 @@ public class Gaming {
 			@Override
 			public int[] call() throws Exception {
 				int count = 0;
-				int[] arr = new int[10];
+				int[] rankArr = new int[10];
 				while (true) {
 					try {
 						Future<Integer> future =  completionService.take();
 						int value = future.get();
 						if (value != 0) {
-							arr[count] = value;
+							rankArr[count] = value;
 							count += 1;
 						}
 						if (count == 10) {
 							System.out.println("=====경기 결과=====");
-							for (int i = 0; i < 10; i++) {
-								System.out.println("       " + (i + 1) + "등 : " + arr[i] + "번 말");
+							for (int rank : rankArr) {
+								System.out.println("\t" + (rank + 1) + "등 : " + rankArr[rank] + "번 말");
 							}
 							break;
 						}
 					} catch (Exception e) {}
 				}
-				return arr;
+				return rankArr;
 			}
 		});
 
@@ -198,57 +195,53 @@ public class Gaming {
 		
 		int[] arr = Horse.rankArray;
 		double betMoney = money;
-		int myHorseRank = 1;
+		int betHorseRank = 1;
 		
-		for (int i = 0; i < arr.length; i++) {
-			if (horseNum == arr[i]) {
-				break;
-			}else {
-				myHorseRank++;
-			}
+		for (int i : arr) {
+			if (horseNum == arr[i]) {break;}
+			else {betHorseRank++;}
 		}
-		switch (myHorseRank) {
+		switch (betHorseRank) {
 		case 1:
-			betMoney = betMoney * 8;
+			betMoney *= 8;
 			break;
 			
 		case 2:
-			betMoney = betMoney * 5;
+			betMoney  *= 5;
 			break;
 			
 		case 3:
-			betMoney = betMoney * 3;
+			betMoney *= 3;
 			break;
 		
 		case 4:
-			betMoney = betMoney * 1.5;
+			betMoney *= 1.5;
 			break;
 			
 		case 5:
-			betMoney = betMoney * 1;
+			betMoney *= 1;
 			break;
 			
 		case 6:
-			betMoney = betMoney * 0.85;
+			betMoney *= 0.85;
 			break;
 			
 		case 7:
-			betMoney = betMoney * 0.6;
+			betMoney *= 0.6;
 			break;
 			
 		case 8:
-			betMoney = betMoney * 0.45;
+			betMoney *= 0.45;
 			break;
 			
 		case 9:
-			betMoney = betMoney * 0.3;
+			betMoney *= 0.3;
 			break;
 			
 		case 10:
-			betMoney = betMoney * 0;
+			betMoney *= 0;
 			break;
 		}
-		
 		return betMoney;
 	}
 }
