@@ -1,4 +1,4 @@
-package Practice.Lesson.collection_framework.map;
+package Practice.Lesson.collection_framework.map.hashmap;
 //Map을 통해 영어단어 연습장 만들기
 
 import java.lang.reflect.Array;

@@ -1,4 +1,4 @@
-package Practice.Lesson.collection_framework.map;
+package Practice.Lesson.collection_framework.map.hashmap;
 
 public class MapPractice2 {
 

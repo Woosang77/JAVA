@@ -1,4 +1,4 @@
-package Practice.Lesson.collection_framework.set.hashset;
+package Practice.Lesson.collection_framework.set;
 
 import java.util.HashSet;
 import java.util.Set;
