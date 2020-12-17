@@ -8,7 +8,7 @@ public class VectorExample {
 	/*
 	 * Vector의 내용은  Arraylist와 같다. 하지만 Vector는 synchronized(동기화)가 되어있어 
 	 * 멀티스레드 환경에서 객체를 저장하거나 리턴할 때, 중복을 발생시키지 않는다.
-	 * Arraylist는 단일스레드환경에서 유리하면, Vector는 멀티스레드에서 정확하다.
+//	 * Arraylist는 단일스레드환경에서 유리하면, Vector는 멀티스레드에서 정확하다.
 	 */
 	public static void main(String[] args) {
 		List<Board> list = new Vector<Board>();
