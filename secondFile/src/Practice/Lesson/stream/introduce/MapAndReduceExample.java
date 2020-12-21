@@ -1,4 +1,4 @@
-package Practice.Lesson.stream;
+package Practice.Lesson.stream.introduce;
 
 import java.util.Arrays;
 import java.util.List;
@@ -16,13 +16,13 @@ public class MapAndReduceExample {
 		
 		double avg = studentList.stream()	// --> 오리지날 스트림 : studentList에 저장된 Student객체를 요소로가지는 스트림
 				
-				.mapToInt(Student :: getScore)	// --> mapToInt가 리턴하는 스트림은 스투던트 객체를 점수로 매핑한 점수가 요소인 스트림
-		
+				.mapToInt(Student :: getScore)	// --> mapToInt가 리턴하는 IntStream은 Student를 점수로 매핑한, 점수가 요소인 스트림
+																	//파라미터 타입이 ToIntFunction이기 때문에 Int가 리턴되는 메소드어야한다.
 		//최종처리 : 점수의 평균값 출력				
 				.average()		// 점수 스트림을 이용해서 평균값을 리턴 옵셔널 더블 
 				.getAsDouble();
 		
-		System.out.println(avg);
+		System.out.println(avg); 
 	}
-
+ 
 }

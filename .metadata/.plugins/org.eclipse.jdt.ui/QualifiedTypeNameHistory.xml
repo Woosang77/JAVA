@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Practice.Lesson.LambdaPart._field.UsingThis"/>
-<fullyQualifiedTypeName name="Practice.Lesson.LambdaPart.local_variable.MyFunctionalInterface"/>
-<fullyQualifiedTypeName name="Practice.Lesson.LambdaPart.local_variable.UsingLocalVariable"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="java.util.function.BiConsumer"/>
 <fullyQualifiedTypeName name="java.util.function.DoubleConsumer"/>
@@ -11,8 +7,6 @@
 <fullyQualifiedTypeName name="java.util.function.IntSupplier"/>
 <fullyQualifiedTypeName name="Practice.Lesson.LambdaPart.function.Student"/>
 <fullyQualifiedTypeName name="java.lang.LinkageError"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="Practice.Lesson.LambdaPart.predicate.Student"/>
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 <fullyQualifiedTypeName name="Practice.Lesson.LambdaPart.andthen_compose.Member"/>
@@ -51,13 +45,19 @@
 <fullyQualifiedTypeName name="Practice.Lesson.collection_framework.comparable.Person"/>
 <fullyQualifiedTypeName name="java.util.TreeSet"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="Practice.Lesson.collection_framework.comparator.Fruit"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="Practice.Lesson.collection_framework.stack.Coin"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="Practice.Lesson.collection_framework.set.Message"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.stream.Stream"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="Practice.Lesson.stream.ParallelExample"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="Practice.Lesson.stream.Student"/>
 </qualifiedTypeNameHistroy>

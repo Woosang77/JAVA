@@ -1,4 +1,4 @@
-package Practice.Lesson.stream;
+package Practice.Lesson.stream.introduce;
 
 import java.util.Arrays;
 import java.util.Iterator;
