@@ -30,7 +30,6 @@ public class FromFlieContentExample {
 		stream.forEach(System.out :: println);
 		stream.close();
 		System.out.println();
-		
+	
 	}
-
 }
