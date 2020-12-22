@@ -52,6 +52,15 @@ public class MaleStudentExample {
 			.forEach(s -> System.out.println(s.getName()));
 		
 		
-
+		//가장 간소화 하는 방법
+		MaleStudent maleStudent3 = totalList.stream()
+				.filter(s -> s.getSex() == Student.Sex.MALE)
+				.collect(MaleStudent :: new, MaleStudent :: accumulate, MaleStudent :: combine);
+		 
+		maleStudent3.getList().stream()
+			.forEach(s -> System.out.println(s.getName()));
+		
+		
+		
 	}
 }
