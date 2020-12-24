@@ -1,4 +1,4 @@
-package Practice.Lesson.stream;
+package Practice.Lesson.stream.understand;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -56,9 +56,11 @@ public class StreamUnderstand {
 		
 		/*
 		 * 3) 최종 연산 : 형성된 스트림 파이프라인을 실행, 결과도출 후 닫는다. 최종 연산에는 크게 두가지 부류가 있다.
+		 * 
 		 * 첫 번째, 집계(reduce) : 결과를 기본 타입(int, long, double 등) 또는 Optional class로 리턴한다.
 		 * 		Optional<T> : 값의 존재, 부재 여부를 표현하는 컨테이너 클래스 - 값이 있다면 출력, 중간 연산을 통해 값이 없어졌을 때 에러발생을 피하기 위해 디폴트값 설정
 		 * 			.method : isPresent()(값 존재여부 불린리턴) / orElse(...) (없다면 ...실행) / ifPresent(...)(있으면...실행 , 없으면 지나감)
+		 * 
 		 * 두 번째, collect : 집계는 큰 범위 내에서 결과를 출력하고 종료한다. 하지만 collect는 중간 연산을 하고 추려진 요소들을 컬렉션으로 담을 수 있다.
 		 * 		.collect(Collector collector);
 		 * 			Collector는 기본적으로 구현 객체인 Collectors의 정적 메소드를 이용한 리턴값이 Collector타입이기 때문에 그렇게 넣는다.

@@ -7,7 +7,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 public class ToListExample {
-	
 	/*
 	 * 수집(Collect)는 필터링과 매핑등으로 나온 최종 처리 요소들을 수집하여 컬렉션에 저장한다.
 	 * 사용법은 스트림에서 .collect(Collector)을 사용하면된다.
