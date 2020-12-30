@@ -78,7 +78,7 @@ public class StreamUnderstand5 {
 		//최종처리 커스텀 집계(reduce)	기본 집계(sum, average, count, min, max)이외에 다양한 기능들이 필요하다면, reduce
 		
 		//최종처리 collect(수집) 요소의 값을 얻는 것이 아닌 추려진 요소를 그룹핑한다.
-		//
+
 		Function<Menu, Menu.Kinds>classifier = Menu :: getKinds;
 		
 		Function<Menu, String> mapper = Menu :: getName;
@@ -88,14 +88,6 @@ public class StreamUnderstand5 {
 		Collector<Menu, ?, Map<Menu.Kinds, List<String>>> finalCollector = Collectors.groupingBy(classifier, collector);
 		
 		Map<Menu.Kinds, List<String>> finalList = sortedStream.collect(finalCollector);
-		
-		
-		
-		
-		
-
-
-		
 		
 	}
 
