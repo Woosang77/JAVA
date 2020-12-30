@@ -24,6 +24,7 @@ public class ResultByRunnableExample {
 				for (int i = 1; i <=  10; i++) {
 					sum += i;
 				}
+				System.out.println(Thread.currentThread().getName() + " " + sum);
 				result.addValue(sum);
 			}
 		}
@@ -47,6 +48,14 @@ public class ResultByRunnableExample {
 		}
 		
 		executorService.shutdown();
+		
+		/*
+		 * [작업처리요청]
+			pool-1-thread-1 55
+			pool-1-thread-2 55
+			[처리 결과]110		두 스레드가 하나의 객체result를 참조하기 때문에 두 스레드의 계산값이 모인다.
+			작업 종료
+		 */
 	}
 }
 

@@ -1,4 +1,4 @@
-package Practice.Lesson.ThreadPart.ThreadPool;
+package Practice.Lesson.ThreadPart.review;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
