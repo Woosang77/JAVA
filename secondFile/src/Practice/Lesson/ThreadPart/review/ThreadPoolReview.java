@@ -49,15 +49,19 @@ public class ThreadPoolReview {
 		completionService.submit(object4);
 		completionService.submit(object5);
 		
+		
+		
 		try {
 			for (int i = 0; i < 5; i++) {
-				Future<String> future = completionService.take();
+				Future<String> future = completionService.take();		//순서에 상관없지만 take()의 반복이 필요하다. while과 함께 사용한다.
 				String result = future.get();
 				System.out.println(result);
 				Thread.sleep(1000);				
 			}
 		} catch (Exception e) {
+			
 		}
+		
 		
 		// 2) 순서를 무조건 따라야하는 executorService
 		Future<String> future1 = executorService.submit(object1);
