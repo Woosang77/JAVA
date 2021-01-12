@@ -1,4 +1,4 @@
-package Practice.Lesson;
+package Practice.Lesson.IOpackage;
 
 public class PrintStream {
 

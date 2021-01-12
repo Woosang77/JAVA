@@ -1,4 +1,4 @@
-package Practice.Lesson;
+package Practice.Lesson.IOpackage;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
