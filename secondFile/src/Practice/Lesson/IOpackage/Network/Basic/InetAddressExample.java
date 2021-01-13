@@ -1,4 +1,4 @@
-package Practice.Lesson.IOpackage.Network;
+package Practice.Lesson.IOpackage.Network.Basic;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
