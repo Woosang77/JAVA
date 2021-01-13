@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Practice.Lesson.LambdaPart.comstructor_references.Member"/>
 <fullyQualifiedTypeName name="Practice.Lesson.stream.stream_pipelines.Member"/>
 <fullyQualifiedTypeName name="java.util.OptionalDouble"/>
 <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
 </qualifiedTypeNameHistroy>

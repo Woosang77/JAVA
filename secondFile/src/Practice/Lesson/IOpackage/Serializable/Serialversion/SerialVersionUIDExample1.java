@@ -15,6 +15,7 @@ public class SerialVersionUIDExample1 implements Serializable {
 		classC.field3 = 3;
 		oos.writeObject(classC);
 		oos.flush(); oos.close(); fos.close();
+		
 	}
 
 }
