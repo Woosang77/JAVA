@@ -21,10 +21,10 @@ public class ServerExample {
 				InetSocketAddress isa = (InetSocketAddress)socket.getRemoteSocketAddress();
 				System.out.println("[연결 수락함]" + isa.getHostName());
 				
-				byte[ ] bytes = null;
+				byte[ ] bytes = null; 
 				String message = null;
 				int readByte;
-				
+		 		
 				InputStream is = socket.getInputStream();
 				bytes = new byte[100];
 				readByte = is.read(bytes);
