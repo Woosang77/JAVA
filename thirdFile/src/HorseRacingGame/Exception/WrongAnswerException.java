@@ -1,4 +1,4 @@
-package HorseRacingGame;
+package HorseRacingGame.Exception;
 
 public class WrongAnswerException extends Exception{
 	public WrongAnswerException() {}

@@ -2,6 +2,10 @@ package HorseRacingGame;
 
 import java.util.*;
 
+import HorseRacingGame.Exception.IllegalAgeException;
+import HorseRacingGame.Exception.SexUnclearException;
+import HorseRacingGame.Exception.WrongAnswerException;
+
 public class Management {
 	HashMap<String, Identify> members = new HashMap<>();
 	Scanner sc = new Scanner(System.in);
@@ -75,7 +79,7 @@ public class Management {
 				modifying();
 				break;
 				
-			//개인 파산신청
+			//대출 상담
 			case 5:
 				//대출후 은행에 이자 포함 상환제도 계획
 				break;

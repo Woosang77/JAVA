@@ -73,6 +73,8 @@
 		<item value="2" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
+		<item value="251" key="size.y"/>
+		<item value="355" key="size.x"/>
 		<item value="277" key="contextSelector.size.y"/>
 		<item value="337" key="contextSelector.size.x"/>
 	</section>

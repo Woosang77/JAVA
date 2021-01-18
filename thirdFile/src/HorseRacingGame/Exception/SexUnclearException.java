@@ -1,4 +1,4 @@
-package HorseRacingGame;
+package HorseRacingGame.Exception;
 
 public class SexUnclearException extends Exception{
 	public SexUnclearException() {}

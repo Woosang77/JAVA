@@ -1,4 +1,4 @@
-package HorseRacingGame;
+package HorseRacingGame.Exception;
 
 public class IllegalAgeException extends Exception{
 	public IllegalAgeException() {}

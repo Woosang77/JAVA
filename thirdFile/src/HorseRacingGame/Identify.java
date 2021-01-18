@@ -5,6 +5,9 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+import HorseRacingGame.Exception.IllegalAgeException;
+import HorseRacingGame.Exception.SexUnclearException;
+
 public class Identify implements Cloneable{
 	
 	private int money = 1000;
