@@ -1,49 +1,45 @@
 package PracticeWithIOPackage;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.Scanner;
 
-public class ServSocket implements Runnable {
-	Socket socket;
-	ArrayList<ServSocket> connections;
-	String userName;
-	DataInputStream in;
-	DataOutputStream out;
+public class ServSocket extends Thread {
 	
-	public ServSocket(Socket socket, ArrayList<ServSocket> connections, String userName) throws IOException{
+	Socket socket;
+	BufferedReader input;
+	PrintWriter output;
+	
+	public ServSocket(Socket socket) {
 		this.socket = socket;
-		this.connections = connections;
-		this.userName = userName;
-		in = new DataInputStream(socket.getInputStream());
-		out = new DataOutputStream(socket.getOutputStream());
 	}
 	
 	@Override
 	public void run() {
-		try {			
-			out.writeUTF("\n 접속자 확인 : /check \n	자료저장 : /save \n	종료 : /quit");
-			out.flush();
+		try {
+			System.out.println("Client connected");
+			input = new BufferedReader(new InputStreamReader(
+					this.socket.getInputStream()));
+			output = new PrintWriter(this.socket.getOutputStream(), true);
 			while (true) {
-				String msg = in.readUTF();
-				if (msg.equals("/check")) {
-					//접속자 보여주기
-				}else if (msg.equals("/save")) {
-					//저장된 자료 보여주기
-				}else if(msg.equals("/quit")) {
+				String inputMsg = input.readLine();
+				if (inputMsg.equals("/quit")) {
+					System.out.println("Chat over");
 					break;
-				}else System.out.println(msg);
+				}
+				System.out.println(" > Client : " + inputMsg);
+				output.println(inputMsg);				
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
-		}finally {
+		} finally {
 			try {
-				in.close();
-			} catch (IOException e) {}
+				socket.close();				
+			} catch (IOException e2) {
+				System.out.println(e2.getStackTrace());
+			}
 		}
-		
 	}
 }

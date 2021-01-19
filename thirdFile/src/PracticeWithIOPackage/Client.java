@@ -1,63 +1,33 @@
 package PracticeWithIOPackage;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.Socket;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Client {
-	public static void main(String[] args) throws IOException{
-				
-		Socket client = new Socket("localhost", 5001);
-		System.out.println("Server is Connected!!");
-		DataInputStream in = new DataInputStream(client.getInputStream());
-		DataOutputStream out = new DataOutputStream(client.getOutputStream());
-		Scanner scan = new Scanner(System.in);
+	
+	private static final int PORT = 5001;
+	
+	public static void main(String[] args) throws IOException{		
 		
-		//Receiving
-		new Thread(new Runnable() {
-			@Override
-			public void run() {
-				try {
-					while (true) {
-						String msg = in.readUTF();
-						if (msg.equals("/quit"))	break;
-						else System.out.println("Server  : " + msg);
-					}
-				} catch (IOException e) {
-					System.out.println("대화가 종료되었습니다.");
-				}
-				try {					
-					in.close(); out.close(); 
-				} catch (IOException e) {
-				}
+		Socket socket = new Socket("localhost", PORT);
+		BufferedReader input = new BufferedReader(
+				new InputStreamReader(socket.getInputStream()));
+		PrintWriter output = new PrintWriter(socket.getOutputStream(), true);
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Server connected");
+		while (true) {
+			String msg = scan.nextLine();
+			output.println(msg);
+			if (msg.equals("/quit")) {
+				break;
 			}
-		}).start();
-				
-		//Sending
-		new Thread(new Runnable() {
-			
-			@Override
-			public void run() {
-				while (true) {
-					try {
-						String send = scan.nextLine();
-						if (send.equals("/quit")) {
-							System.out.println("상대방과 대화를 종료합니다.");
-							break;
-						}
-						out.writeUTF(send);
-					} catch (Exception e) {
-						// TODO: handle exception
-					}
-				}
-				try {
-					in.close(); out.close(); 
-				} catch (IOException e) {
-				}
-			}
-		}).start();
+			System.out.println(" > Server : " + input.readLine());
+		}
+		System.out.println("Chat over");
+		socket.close();
 	}
 }

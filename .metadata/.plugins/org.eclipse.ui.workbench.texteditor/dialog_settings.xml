@@ -10,6 +10,7 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="getRan"/>
 			<item value="System.out.println(&quot;Member(String id) 실행&quot;);System.out.println(&quot;Member(String id) 실행&quot;);"/>
 			<item value="F"/>
 		</list>
