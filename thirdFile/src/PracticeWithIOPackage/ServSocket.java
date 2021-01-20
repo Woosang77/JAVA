@@ -6,11 +6,12 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class ServSocket extends Thread {
+public class ServSocket implements Runnable {
 	
 	Socket socket;
 	BufferedReader input;
 	PrintWriter output;
+	String clientName = null;
 	
 	public ServSocket(Socket socket) {
 		this.socket = socket;
@@ -23,6 +24,7 @@ public class ServSocket extends Thread {
 			input = new BufferedReader(new InputStreamReader(
 					this.socket.getInputStream()));
 			output = new PrintWriter(this.socket.getOutputStream(), true);
+			clientName = input.readLine();
 			while (true) {
 				String inputMsg = input.readLine();
 				if (inputMsg.equals("/quit")) {

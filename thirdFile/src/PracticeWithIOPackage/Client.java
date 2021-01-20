@@ -10,15 +10,19 @@ import java.util.Scanner;
 public class Client {
 	
 	private static final int PORT = 5001;
+	String name;
+	Socket socket;
+	Scanner scan = new Scanner(System.in);
 	
-	public static void main(String[] args) throws IOException{		
-		
-		Socket socket = new Socket("localhost", PORT);
+	public Client() throws IOException{
+		System.out.print("What's your name? : "); 
+		name = scan.nextLine();
+		socket = new Socket("localhost", PORT);
 		BufferedReader input = new BufferedReader(
 				new InputStreamReader(socket.getInputStream()));
 		PrintWriter output = new PrintWriter(socket.getOutputStream(), true);
-		Scanner scan = new Scanner(System.in);
 		System.out.println("Server connected");
+		output.println(name);
 		while (true) {
 			String msg = scan.nextLine();
 			output.println(msg);
@@ -29,5 +33,9 @@ public class Client {
 		}
 		System.out.println("Chat over");
 		socket.close();
+	}
+	
+	public static void main(String[] args) throws IOException{
+		new Client();
 	}
 }
