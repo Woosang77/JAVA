@@ -31,7 +31,7 @@ public class ServSocket implements Runnable {
 					System.out.println("Chat over");
 					break;
 				}
-				System.out.println(" > Client : " + inputMsg);
+				System.out.println(" > " + clientName + " : " + inputMsg);
 				output.println(inputMsg);				
 			}
 		} catch (IOException e) {

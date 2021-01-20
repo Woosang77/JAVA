@@ -25,7 +25,7 @@ public class Client {
 		output.println(name);
 		while (true) {
 			String msg = scan.nextLine();
-			output.println(msg);
+			output.println(msg);  
 			if (msg.equals("/quit")) {
 				break;
 			}
