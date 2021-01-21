@@ -1,4 +1,4 @@
-package PracticeWithIOPackage.OtherExample;
+package PracticeWithIOPackage.Example2;
 
 import java.io.PrintWriter;
 import java.net.ServerSocket;
