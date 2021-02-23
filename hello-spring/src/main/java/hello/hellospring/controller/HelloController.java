@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
+//스프링이 뜰 때, @Controller을 보고 객체를 생성해서 가지고 있는다.(스프링컨테이너에서 스프링빈이 관리된다.)
 public class HelloController {
 
     @GetMapping("hello")
