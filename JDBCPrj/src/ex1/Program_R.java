@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Date;
 
-public class Program {
+public class Program_R {
 	
 	//데이터 읽기
 	
