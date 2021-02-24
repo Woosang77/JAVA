@@ -8,6 +8,7 @@ import java.util.Date;
 
 public class Program {
 	
+	//데이터 읽기
 	
 	public static void main(String[] args) throws Exception{
 		
