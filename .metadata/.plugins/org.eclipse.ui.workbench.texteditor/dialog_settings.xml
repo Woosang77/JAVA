@@ -6,15 +6,18 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="&quot;oracle.jdbc.driver.OracleDriver&quot;" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="&quot;oracle.jdbc.driver.OracleDriver&quot;"/>
+			<item value="\r\n"/>
 			<item value="getRan"/>
 			<item value="System.out.println(&quot;Member(String id) 실행&quot;);System.out.println(&quot;Member(String id) 실행&quot;);"/>
 			<item value="F"/>
 		</list>
 		<list key="replacehistory">
+			<item value="driver"/>
 		</list>
 	</section>
 </section>

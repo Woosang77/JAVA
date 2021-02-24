@@ -8,7 +8,7 @@ public class Topic {
 	private String description;
 	private Date created;
 	private int author_id;
-	
+
 	public Topic() {
 		
 	}

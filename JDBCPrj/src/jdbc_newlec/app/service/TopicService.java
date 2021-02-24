@@ -19,14 +19,25 @@ public class TopicService {
 	private String pwd = "12345";
 	private String driver = "oracle.jdbc.driver.OracleDriver";
 	
-	public List<Topic> getList() throws ClassNotFoundException, SQLException{
+	public List<Topic> getList(int page) throws ClassNotFoundException, SQLException{
 		
-		String sql = "SELECT * FROM TOPIC WHERE ID > 2";
+		int start = 1 + (page - 1)*10;
+		int end = 10 * page;
+		
+		String sql = "SELECT * FROM (" + 
+				"    SELECT ROWNUM NUM, N.* FROM (" + 
+				"        SELECT * FROM TOPIC ORDER BY CREATED DESC" + 
+				"    )N" + 
+				")" + 
+				"WHERE NUM BETWEEN ? AND ?";
 		
 		Class.forName(driver);
 		Connection con = DriverManager.getConnection(url, uid, pwd);
-		Statement st = con.createStatement();
-		ResultSet rs = st.executeQuery(sql);
+		PreparedStatement st = con.prepareStatement(sql);
+		
+		st.setInt(1, start);
+		st.setInt(2, end);
+		ResultSet rs = st.executeQuery();
 		
 		List<Topic> list = new ArrayList<Topic>();
 		
