@@ -1,4 +1,4 @@
-package jdbc_newlec;
+package jdbc_newlec.app.service;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import jdbc_newlec.entity.Topic;
+import jdbc_newlec.app.entity.Topic;
 
 public class TopicService {
 	

@@ -1,4 +1,4 @@
-package jdbc_newlec.entity;
+package jdbc_newlec.app.entity;
 
 import java.util.Date;
 
