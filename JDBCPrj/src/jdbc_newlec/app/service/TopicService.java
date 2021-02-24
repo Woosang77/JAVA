@@ -23,13 +23,9 @@ public class TopicService {
 		
 		int start = 1 + (page - 1)*10;
 		int end = 10 * page;
+		int count;
 		
-		String sql = "SELECT * FROM (" + 
-				"    SELECT ROWNUM NUM, N.* FROM (" + 
-				"        SELECT * FROM TOPIC ORDER BY CREATED DESC" + 
-				"    )N" + 
-				")" + 
-				"WHERE NUM BETWEEN ? AND ?";
+		String sql = "SELECT * FROM TOPIC_VIEW WHERE NUM BETWEEN ? AND ?";
 		
 		Class.forName(driver);
 		Connection con = DriverManager.getConnection(url, uid, pwd);
@@ -135,4 +131,24 @@ public class TopicService {
 		
 		return result;
 	}
+
+	//Scalar
+	public int getCount() throws SQLException, ClassNotFoundException{
+		
+		int count = 0;
+		String sql = "SELECT COUNT(*) COUNT FROM topic";
+		Class.forName(driver);
+		Connection con = DriverManager.getConnection(url, uid, pwd);
+		Statement st = con.createStatement();
+		ResultSet rs = st.executeQuery(sql);
+		if (rs.next())
+			count = rs.getInt("COUNT");						
+		
+		rs.close();
+		st.close();
+		con.close();
+		
+		return count;
+	}
 }
+
