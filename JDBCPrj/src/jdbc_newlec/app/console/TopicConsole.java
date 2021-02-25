@@ -85,4 +85,24 @@ public class TopicConsole {
 		System.out.print("검색어 > ");
 		searchWord = scan.nextLine();
 	}
+	
+	public void addList() throws ClassNotFoundException, SQLException{
+		Scanner scan = new Scanner(System.in);
+		String title = "";
+		String description = "";
+		
+		System.out.println("-----------------------------------------------");
+		System.out.println("추가할 데이터의 정보를 입력해주세요.");
+		
+		System.out.print("Title > ");
+		title = scan.nextLine();
+		
+		System.out.print("Description > ");
+		description = scan.nextLine();
+		
+		service.insert(title, description);
+		
+		System.out.println("-----------------------------------------------");
+		System.out.println("작성 완료");
+	}
 }

@@ -26,8 +26,8 @@ public class TopicService {
 		
 		//String sql = "SELECT * FROM TOPIC_VIEW WHERE " + field + " LIKE ? AND NUM BETWEEN ? AND ?";
 		String sql = "SELECT * FROM "
-				+ "(SELECT * FROM TOPIC WHERE " + field + " LIKE ? )"
-							+ "WHERE ROWNUM BETWEEN ? AND ?";
+				+ "(SELECT ROWNUM AS RNUM, TOPIC_VIEW.* FROM TOPIC_VIEW WHERE " + field + " LIKE ? )"
+							+ "WHERE RNUM BETWEEN ? AND ?";
 		
 		Class.forName(driver);
 		Connection con = DriverManager.getConnection(url, uid, pwd);
@@ -65,10 +65,10 @@ public class TopicService {
 		return list;
 	}
 
-	public int insert(Topic topic) throws ClassNotFoundException, SQLException{
+	public int insert(String title_, String description_) throws ClassNotFoundException, SQLException{
 		
-		String title = topic.getTitle();
-		String description = topic.getDescription();
+		String title = title_;
+		String description = description_;
 		String sql = "INSERT INTO topic (" + 
 				"    title," + 
 				"    description" + 

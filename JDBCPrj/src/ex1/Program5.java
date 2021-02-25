@@ -24,6 +24,7 @@ public class Program5 {
 				console.moveNextList();
 				break;
 			case 4:	//글쓰기
+				console.addList();
 				break;
 			case 5:	//검색
 				console.inputSearchWord();
