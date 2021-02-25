@@ -1,4 +1,4 @@
-!SESSION 2020-11-19 13:26:57.792 -----------------------------------------------
+!SESSION 2021-02-25 13:12:05.682 -----------------------------------------------
 eclipse.buildId=4.8.0.I20180611-0500
 java.version=1.8.0_201
 java.vendor=Oracle Corporation
@@ -7,9 +7,9 @@ Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
 This is a continuation of log file C:\Java\workspace\.metadata\.bak_0.log
-Created Time: 2020-11-19 15:25:28.773
+Created Time: 2021-02-25 13:22:36.725
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:28.781
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:36.732
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -59,7 +59,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:28.791
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:36.750
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -109,7 +109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:28.801
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:39.507
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -159,7 +159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:28.991
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:39.526
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -209,7 +209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.189
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:39.543
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -259,7 +259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.201
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:45.180
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -309,7 +309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.220
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:45.197
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -359,7 +359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.239
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:45.226
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -409,7 +409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.265
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:45.236
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -459,7 +459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.507
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:45.253
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -509,7 +509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.525
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:55.200
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -559,7 +559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.535
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:55.217
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -609,7 +609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.555
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:55.235
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -659,7 +659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.565
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:55.245
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -709,7 +709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.580
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:55.261
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -759,7 +759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.777
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.040
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -809,7 +809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.799
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.053
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -859,7 +859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.821
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.075
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -909,7 +909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.832
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.086
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -959,7 +959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.842
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.111
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1009,7 +1009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.853
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.159
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1059,7 +1059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:32.884
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.370
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1109,7 +1109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:33.051
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.391
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1159,7 +1159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:33.070
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.401
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1209,7 +1209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:33.081
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.422
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1259,7 +1259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:33.101
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:22:56.461
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1309,7 +1309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:34.478
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:13.370
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1359,7 +1359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:34.496
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:13.380
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1409,7 +1409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:34.523
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:13.398
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1459,7 +1459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:34.775
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:13.416
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1509,7 +1509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:34.795
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:13.458
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1559,7 +1559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:34.811
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:13.723
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1609,7 +1609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:34.822
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:13.743
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1659,7 +1659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:34.840
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:13.754
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1709,7 +1709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:34.866
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:13.773
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1759,7 +1759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:35.148
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:22.203
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1809,7 +1809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:35.168
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:22.217
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1859,7 +1859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:35.179
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:22.230
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1909,7 +1909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:35.198
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:22.246
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -1959,7 +1959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:35.224
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:22.260
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2009,7 +2009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:36.247
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:22.276
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2059,7 +2059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:36.258
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:24:22.290
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2109,7 +2109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:36.288
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:03.967
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2159,7 +2159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:36.318
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:03.989
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2209,7 +2209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:36.424
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:04.012
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2259,7 +2259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:36.514
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:04.029
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2309,7 +2309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:36.905
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:04.058
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2359,7 +2359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:36.923
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:04.088
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2409,7 +2409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:36.948
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:07.130
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2459,7 +2459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:36.979
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:07.159
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2509,7 +2509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:37.041
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:07.178
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2559,7 +2559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:25:37.161
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:07.205
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2609,59 +2609,34 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.jdt.ui 4 2 2020-11-19 15:26:00.509
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:07.234
+!MESSAGE Unhandled event loop exception
 !STACK 0
-java.lang.VerifyError: Bad type on operand stack
-Exception Details:
-  Location:
-    org/eclipse/jdt/ui/text/java/correction/CUCorrectionProposal.createTextChange()Lorg/eclipse/ltk/core/refactoring/TextChange; @117: invokevirtual
-  Reason:
-    Type 'java/lang/Object' (current frame, stack[0]) is not assignable to 'org/eclipse/ltk/core/refactoring/TextChange'
-  Current Frame:
-    bci: @117
-    flags: { }
-    locals: { 'org/eclipse/jdt/ui/text/java/correction/CUCorrectionProposal', 'org/eclipse/jdt/core/ICompilationUnit', 'java/lang/String', 'java/lang/Object', 'org/eclipse/text/edits/MultiTextEdit' }
-    stack: { 'java/lang/Object', 'org/eclipse/text/edits/MultiTextEdit' }
-  Bytecode:
-    0x0000000: 2ab6 011d 4c2a b601 1b4d 2bb9 0136 0100
-    0x0000010: b901 3301 009a 0040 2bb9 0135 0100 3a04
-    0x0000020: a700 133a 0519 05b8 0111 bb00 7859 b701
-    0x0000030: 093a 04bb 008e 5919 04b7 0127 3a05 1905
-    0x0000040: 2bb8 010f b601 28bb 0090 592c 1905 b701
-    0x0000050: 294e a700 17bb 0081 592c 2bb7 010e 3a04
-    0x0000060: 1904 07b6 010d 1904 4ebb 0093 59b7 0131
-    0x0000070: 3a04 2d19 04b6 012c 2dbb 007e 59b7 010c
-    0x0000080: b601 2e3a 052a 1905 1904 b601 232d b0  
-  Exception Handler Table:
-    bci [24, 32] => handler: 35
-  Stackmap Table:
-    full_frame(@35,{Object[#139],Object[#127],Object[#120]},{Object[#128]})
-    append_frame(@51,Top,Object[#120])
-    chop_frame(@85,2)
-    append_frame(@105,Object[#119],Object[#119])
-
-	at org.eclipse.jdt.internal.ui.text.correction.LocalCorrectionsSubProcessor.addUnimplementedMethodsProposals(LocalCorrectionsSubProcessor.java:579)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:510)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:328)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:384)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:344)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:339)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:474)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:102)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getCompletionProposals(ProblemHover.java:76)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:302)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:189)
-	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1192)
-	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1161)
-	at org.eclipse.jface.text.AbstractHoverInformationControlManager.presentInformation(AbstractHoverInformationControlManager.java:894)
-	at org.eclipse.jface.text.TextViewerHoverManager.doPresentInformation(TextViewerHoverManager.java:248)
-	at org.eclipse.jface.text.TextViewerHoverManager.lambda$0(TextViewerHoverManager.java:238)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3906)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3537)
+java.lang.NullPointerException
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection.scrollingChanged(EclipseOfferOnSelection.java:437)
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection$ScrollingListener.widgetSelected(EclipseOfferOnSelection.java:70)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4118)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1093)
+	at org.eclipse.swt.widgets.ScrollBar.wmScrollChild(ScrollBar.java:999)
+	at org.eclipse.swt.widgets.Scrollable.wmScroll(Scrollable.java:479)
+	at org.eclipse.swt.widgets.Scrollable.WM_VSCROLL(Scrollable.java:370)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4852)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:2943)
+	at org.eclipse.swt.widgets.Scrollable.wmScrollWheel(Scrollable.java:400)
+	at org.eclipse.swt.widgets.Scrollable.WM_MOUSEWHEEL(Scrollable.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4813)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2303)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3532)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
@@ -2684,7 +2659,7 @@ Exception Details:
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:55.982
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:55.709
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2734,7 +2709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.003
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:55.729
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2784,7 +2759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.013
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:55.741
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2834,7 +2809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.039
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:55.758
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2884,7 +2859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.058
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:55.771
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2934,7 +2909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.075
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:55.786
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -2984,7 +2959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.435
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:55.799
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3034,7 +3009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.448
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:56.323
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3084,7 +3059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.465
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:56.344
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3134,7 +3109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.481
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:56.353
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3184,7 +3159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.498
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:56.363
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3234,7 +3209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.540
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:26:56.379
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3284,7 +3259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:56.617
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:27:00.849
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3334,7 +3309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.062
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:27:00.870
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3384,7 +3359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.080
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:27:00.881
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3434,7 +3409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.095
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:27:00.911
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3484,7 +3459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.120
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:27:00.929
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3534,7 +3509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.152
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:27:00.955
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3584,7 +3559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.391
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:27:02.364
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3634,7 +3609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.410
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:27:02.408
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3684,7 +3659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.420
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:27:02.428
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3734,7 +3709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.438
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:05.484
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3784,7 +3759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.455
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:05.514
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3834,7 +3809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.472
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:05.534
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3884,7 +3859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.481
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:05.543
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3934,7 +3909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.737
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:05.560
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -3984,7 +3959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.751
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:05.595
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4034,7 +4009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.768
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:10.553
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4084,7 +4059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.780
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:10.576
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4134,7 +4109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.798
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:10.587
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4184,7 +4159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:29:57.843
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:10.606
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4234,7 +4209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:17.921
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:10.617
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4284,7 +4259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.074
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:10.628
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4334,7 +4309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.093
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:10.647
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4384,7 +4359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.111
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:11.672
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4434,7 +4409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.121
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:11.695
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4484,7 +4459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.141
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:11.713
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4534,7 +4509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.165
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:11.723
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4584,7 +4559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.385
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:12.010
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4634,7 +4609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.404
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:12.050
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4684,7 +4659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.421
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:12.060
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4734,7 +4709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.431
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:12.074
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4784,7 +4759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.448
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:21.179
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4834,7 +4809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:18.465
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:21.200
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4884,7 +4859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:19.382
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:21.224
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4934,7 +4909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:19.393
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:28:21.235
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -4984,7 +4959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:19.414
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:29:49.343
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5034,7 +5009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:19.424
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:29:49.684
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5084,7 +5059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:19.445
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:29:49.700
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5134,7 +5109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:19.471
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:29:49.716
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5184,7 +5159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:21.771
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:29:49.730
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5234,7 +5209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:38.553
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:29:49.746
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5284,7 +5259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:38.572
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:29:49.760
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5334,7 +5309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:38.581
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:06.126
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5384,7 +5359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:38.598
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:06.145
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5434,7 +5409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:38.611
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:06.154
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5484,7 +5459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:30:38.656
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:06.456
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5534,7 +5509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:32:16.948
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:06.475
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5584,7 +5559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:32:36.131
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:06.485
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5634,7 +5609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:32:36.145
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:06.500
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5684,7 +5659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:32:36.161
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:08.404
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5734,7 +5709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 15:32:36.187
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:08.418
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5784,60 +5759,34 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.jdt.ui 4 2 2020-11-19 16:10:38.955
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:08.437
+!MESSAGE Unhandled event loop exception
 !STACK 0
-java.lang.VerifyError: Bad type on operand stack
-Exception Details:
-  Location:
-    org/eclipse/jdt/ui/text/java/correction/CUCorrectionProposal.createTextChange()Lorg/eclipse/ltk/core/refactoring/TextChange; @117: invokevirtual
-  Reason:
-    Type 'java/lang/Object' (current frame, stack[0]) is not assignable to 'org/eclipse/ltk/core/refactoring/TextChange'
-  Current Frame:
-    bci: @117
-    flags: { }
-    locals: { 'org/eclipse/jdt/ui/text/java/correction/CUCorrectionProposal', 'org/eclipse/jdt/core/ICompilationUnit', 'java/lang/String', 'java/lang/Object', 'org/eclipse/text/edits/MultiTextEdit' }
-    stack: { 'java/lang/Object', 'org/eclipse/text/edits/MultiTextEdit' }
-  Bytecode:
-    0x0000000: 2ab6 011d 4c2a b601 1b4d 2bb9 0136 0100
-    0x0000010: b901 3301 009a 0040 2bb9 0135 0100 3a04
-    0x0000020: a700 133a 0519 05b8 0111 bb00 7859 b701
-    0x0000030: 093a 04bb 008e 5919 04b7 0127 3a05 1905
-    0x0000040: 2bb8 010f b601 28bb 0090 592c 1905 b701
-    0x0000050: 294e a700 17bb 0081 592c 2bb7 010e 3a04
-    0x0000060: 1904 07b6 010d 1904 4ebb 0093 59b7 0131
-    0x0000070: 3a04 2d19 04b6 012c 2dbb 007e 59b7 010c
-    0x0000080: b601 2e3a 052a 1905 1904 b601 232d b0  
-  Exception Handler Table:
-    bci [24, 32] => handler: 35
-  Stackmap Table:
-    full_frame(@35,{Object[#139],Object[#127],Object[#120]},{Object[#128]})
-    append_frame(@51,Top,Object[#120])
-    chop_frame(@85,2)
-    append_frame(@105,Object[#119],Object[#119])
-
-	at org.eclipse.jdt.internal.ui.text.correction.TypeMismatchSubProcessor.addChangeSenderTypeProposals(TypeMismatchSubProcessor.java:292)
-	at org.eclipse.jdt.internal.ui.text.correction.TypeMismatchSubProcessor.addTypeMismatchProposals(TypeMismatchSubProcessor.java:215)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:391)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:328)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:384)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:344)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:339)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:474)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:102)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getCompletionProposals(ProblemHover.java:76)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:302)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:189)
-	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1192)
-	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1161)
-	at org.eclipse.jface.text.AbstractHoverInformationControlManager.presentInformation(AbstractHoverInformationControlManager.java:894)
-	at org.eclipse.jface.text.TextViewerHoverManager.doPresentInformation(TextViewerHoverManager.java:248)
-	at org.eclipse.jface.text.TextViewerHoverManager.lambda$0(TextViewerHoverManager.java:238)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3906)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3537)
+java.lang.NullPointerException
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection.scrollingChanged(EclipseOfferOnSelection.java:437)
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection$ScrollingListener.widgetSelected(EclipseOfferOnSelection.java:70)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4118)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1093)
+	at org.eclipse.swt.widgets.ScrollBar.wmScrollChild(ScrollBar.java:999)
+	at org.eclipse.swt.widgets.Scrollable.wmScroll(Scrollable.java:479)
+	at org.eclipse.swt.widgets.Scrollable.WM_VSCROLL(Scrollable.java:370)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4852)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:2943)
+	at org.eclipse.swt.widgets.Scrollable.wmScrollWheel(Scrollable.java:400)
+	at org.eclipse.swt.widgets.Scrollable.WM_MOUSEWHEEL(Scrollable.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4813)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2303)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3532)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
@@ -5860,7 +5809,7 @@ Exception Details:
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:22:07.787
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:08.453
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5910,7 +5859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:22:07.804
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:08.491
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -5960,7 +5909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:22:07.819
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:09.854
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6010,7 +5959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:22:07.834
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:09.864
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6060,7 +6009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:27:25.232
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:24.355
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6110,7 +6059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:27:25.247
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:24.389
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6160,7 +6109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:27:25.276
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:24.417
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6210,7 +6159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:27:25.308
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:24.461
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6260,7 +6209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:49.820
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:24.644
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6310,7 +6259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:49.834
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:24.668
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6360,7 +6309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:49.845
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:24.680
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6410,7 +6359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:49.864
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:24.691
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6460,7 +6409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:49.890
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:24.717
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6510,7 +6459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:49.912
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:30:24.764
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6560,7 +6509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:50.357
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:31:56.567
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6610,7 +6559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:50.375
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:31:56.583
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6660,7 +6609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:50.384
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:31:56.597
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6710,7 +6659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:59.134
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:31:56.616
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6760,7 +6709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:59.152
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:31:56.634
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6810,7 +6759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:29:59.169
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:31:56.658
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6860,7 +6809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:30:07.180
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:09.535
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6910,7 +6859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:30:07.194
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:09.555
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -6960,7 +6909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:30:07.216
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:09.572
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7010,7 +6959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:30:07.226
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:09.581
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7060,7 +7009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:30:07.246
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:09.597
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7110,7 +7059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:30:07.271
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:09.609
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7160,7 +7109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:30:07.313
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:10.654
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7210,7 +7159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:30:07.589
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:11.164
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7260,7 +7209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:30:07.601
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:11.181
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7310,7 +7259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:30:07.614
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:28.077
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7360,60 +7309,34 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.jdt.ui 4 2 2020-11-19 16:30:17.722
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:28.106
+!MESSAGE Unhandled event loop exception
 !STACK 0
-java.lang.VerifyError: Bad type on operand stack
-Exception Details:
-  Location:
-    org/eclipse/jdt/ui/text/java/correction/CUCorrectionProposal.createTextChange()Lorg/eclipse/ltk/core/refactoring/TextChange; @117: invokevirtual
-  Reason:
-    Type 'java/lang/Object' (current frame, stack[0]) is not assignable to 'org/eclipse/ltk/core/refactoring/TextChange'
-  Current Frame:
-    bci: @117
-    flags: { }
-    locals: { 'org/eclipse/jdt/ui/text/java/correction/CUCorrectionProposal', 'org/eclipse/jdt/core/ICompilationUnit', 'java/lang/String', 'java/lang/Object', 'org/eclipse/text/edits/MultiTextEdit' }
-    stack: { 'java/lang/Object', 'org/eclipse/text/edits/MultiTextEdit' }
-  Bytecode:
-    0x0000000: 2ab6 011d 4c2a b601 1b4d 2bb9 0136 0100
-    0x0000010: b901 3301 009a 0040 2bb9 0135 0100 3a04
-    0x0000020: a700 133a 0519 05b8 0111 bb00 7859 b701
-    0x0000030: 093a 04bb 008e 5919 04b7 0127 3a05 1905
-    0x0000040: 2bb8 010f b601 28bb 0090 592c 1905 b701
-    0x0000050: 294e a700 17bb 0081 592c 2bb7 010e 3a04
-    0x0000060: 1904 07b6 010d 1904 4ebb 0093 59b7 0131
-    0x0000070: 3a04 2d19 04b6 012c 2dbb 007e 59b7 010c
-    0x0000080: b601 2e3a 052a 1905 1904 b601 232d b0  
-  Exception Handler Table:
-    bci [24, 32] => handler: 35
-  Stackmap Table:
-    full_frame(@35,{Object[#139],Object[#127],Object[#120]},{Object[#128]})
-    append_frame(@51,Top,Object[#120])
-    chop_frame(@85,2)
-    append_frame(@105,Object[#119],Object[#119])
-
-	at org.eclipse.jdt.internal.ui.text.correction.TypeMismatchSubProcessor.createCastProposal(TypeMismatchSubProcessor.java:318)
-	at org.eclipse.jdt.internal.ui.text.correction.TypeMismatchSubProcessor.addTypeMismatchProposals(TypeMismatchSubProcessor.java:161)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:391)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:328)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:384)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:344)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:339)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:474)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:102)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getCompletionProposals(ProblemHover.java:76)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:302)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:189)
-	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1192)
-	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1161)
-	at org.eclipse.jface.text.AbstractHoverInformationControlManager.presentInformation(AbstractHoverInformationControlManager.java:894)
-	at org.eclipse.jface.text.TextViewerHoverManager.doPresentInformation(TextViewerHoverManager.java:248)
-	at org.eclipse.jface.text.TextViewerHoverManager.lambda$0(TextViewerHoverManager.java:238)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3906)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3537)
+java.lang.NullPointerException
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection.scrollingChanged(EclipseOfferOnSelection.java:437)
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection$ScrollingListener.widgetSelected(EclipseOfferOnSelection.java:70)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4118)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1093)
+	at org.eclipse.swt.widgets.ScrollBar.wmScrollChild(ScrollBar.java:999)
+	at org.eclipse.swt.widgets.Scrollable.wmScroll(Scrollable.java:479)
+	at org.eclipse.swt.widgets.Scrollable.WM_VSCROLL(Scrollable.java:370)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4852)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:2943)
+	at org.eclipse.swt.widgets.Scrollable.wmScrollWheel(Scrollable.java:400)
+	at org.eclipse.swt.widgets.Scrollable.WM_MOUSEWHEEL(Scrollable.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4813)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2303)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3532)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
@@ -7436,7 +7359,7 @@ Exception Details:
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:31:13.879
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:28.122
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7486,7 +7409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:31:13.944
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:28.140
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7536,7 +7459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:31:13.953
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:32:28.150
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7586,7 +7509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:31:13.970
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:03.291
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7636,59 +7559,84 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.jdt.ui 4 2 2020-11-19 16:33:11.760
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:03.301
+!MESSAGE Unhandled event loop exception
 !STACK 0
-java.lang.VerifyError: Bad type on operand stack
-Exception Details:
-  Location:
-    org/eclipse/jdt/ui/text/java/correction/CUCorrectionProposal.createTextChange()Lorg/eclipse/ltk/core/refactoring/TextChange; @117: invokevirtual
-  Reason:
-    Type 'java/lang/Object' (current frame, stack[0]) is not assignable to 'org/eclipse/ltk/core/refactoring/TextChange'
-  Current Frame:
-    bci: @117
-    flags: { }
-    locals: { 'org/eclipse/jdt/ui/text/java/correction/CUCorrectionProposal', 'org/eclipse/jdt/core/ICompilationUnit', 'java/lang/String', 'java/lang/Object', 'org/eclipse/text/edits/MultiTextEdit' }
-    stack: { 'java/lang/Object', 'org/eclipse/text/edits/MultiTextEdit' }
-  Bytecode:
-    0x0000000: 2ab6 011d 4c2a b601 1b4d 2bb9 0136 0100
-    0x0000010: b901 3301 009a 0040 2bb9 0135 0100 3a04
-    0x0000020: a700 133a 0519 05b8 0111 bb00 7859 b701
-    0x0000030: 093a 04bb 008e 5919 04b7 0127 3a05 1905
-    0x0000040: 2bb8 010f b601 28bb 0090 592c 1905 b701
-    0x0000050: 294e a700 17bb 0081 592c 2bb7 010e 3a04
-    0x0000060: 1904 07b6 010d 1904 4ebb 0093 59b7 0131
-    0x0000070: 3a04 2d19 04b6 012c 2dbb 007e 59b7 010c
-    0x0000080: b601 2e3a 052a 1905 1904 b601 232d b0  
-  Exception Handler Table:
-    bci [24, 32] => handler: 35
-  Stackmap Table:
-    full_frame(@35,{Object[#139],Object[#127],Object[#120]},{Object[#128]})
-    append_frame(@51,Top,Object[#120])
-    chop_frame(@85,2)
-    append_frame(@105,Object[#119],Object[#119])
+java.lang.NullPointerException
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection.scrollingChanged(EclipseOfferOnSelection.java:437)
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection$ScrollingListener.widgetSelected(EclipseOfferOnSelection.java:70)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4118)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1093)
+	at org.eclipse.swt.widgets.ScrollBar.wmScrollChild(ScrollBar.java:999)
+	at org.eclipse.swt.widgets.Scrollable.wmScroll(Scrollable.java:479)
+	at org.eclipse.swt.widgets.Scrollable.WM_VSCROLL(Scrollable.java:370)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4852)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:2943)
+	at org.eclipse.swt.widgets.Scrollable.wmScrollWheel(Scrollable.java:400)
+	at org.eclipse.swt.widgets.Scrollable.WM_MOUSEWHEEL(Scrollable.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4813)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2303)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3532)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-	at org.eclipse.jdt.internal.ui.text.correction.ReturnTypeSubProcessor.addVoidMethodReturnsProposals(ReturnTypeSubProcessor.java:171)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:415)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:328)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:384)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:344)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:339)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:474)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:102)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getCompletionProposals(ProblemHover.java:76)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:302)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:189)
-	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1192)
-	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1161)
-	at org.eclipse.jface.text.AbstractHoverInformationControlManager.presentInformation(AbstractHoverInformationControlManager.java:894)
-	at org.eclipse.jface.text.TextViewerHoverManager.doPresentInformation(TextViewerHoverManager.java:248)
-	at org.eclipse.jface.text.TextViewerHoverManager.lambda$0(TextViewerHoverManager.java:238)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3906)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3537)
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:03.841
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection.scrollingChanged(EclipseOfferOnSelection.java:437)
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection$ScrollingListener.widgetSelected(EclipseOfferOnSelection.java:70)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4118)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1093)
+	at org.eclipse.swt.widgets.ScrollBar.wmScrollChild(ScrollBar.java:999)
+	at org.eclipse.swt.widgets.Scrollable.wmScroll(Scrollable.java:479)
+	at org.eclipse.swt.widgets.Scrollable.WM_VSCROLL(Scrollable.java:370)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4852)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:2943)
+	at org.eclipse.swt.widgets.Scrollable.wmScrollWheel(Scrollable.java:400)
+	at org.eclipse.swt.widgets.Scrollable.WM_MOUSEWHEEL(Scrollable.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4813)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2303)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3532)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
@@ -7711,7 +7659,7 @@ Exception Details:
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:21.629
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:03.860
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7761,7 +7709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:21.681
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:03.870
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7811,7 +7759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:21.698
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:03.886
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7861,7 +7809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:21.708
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:03.910
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7911,7 +7859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:21.747
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:04.284
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -7961,7 +7909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:24.034
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:04.313
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8011,7 +7959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:24.141
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:04.345
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8061,7 +8009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:24.181
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:04.390
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8111,7 +8059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:30.972
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:45.167
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8161,7 +8109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:30.994
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:33:45.185
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8177,8 +8125,58 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Scrollable.wmScroll(Scrollable.java:479)
 	at org.eclipse.swt.widgets.Scrollable.WM_VSCROLL(Scrollable.java:370)
 	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4852)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:2943)
+	at org.eclipse.swt.widgets.Scrollable.wmScrollWheel(Scrollable.java:400)
+	at org.eclipse.swt.widgets.Scrollable.WM_MOUSEWHEEL(Scrollable.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4813)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2303)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3532)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:34:03.703
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection.scrollingChanged(EclipseOfferOnSelection.java:437)
+	at com.genuitec.eclipse.codetogether.ui.actions.EclipseOfferOnSelection$ScrollingListener.widgetSelected(EclipseOfferOnSelection.java:70)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4118)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1093)
+	at org.eclipse.swt.widgets.ScrollBar.wmScrollChild(ScrollBar.java:999)
+	at org.eclipse.swt.widgets.Scrollable.wmScroll(Scrollable.java:479)
+	at org.eclipse.swt.widgets.Scrollable.WM_VSCROLL(Scrollable.java:370)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4852)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4765)
 	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:2943)
 	at org.eclipse.swt.widgets.Scrollable.wmScrollWheel(Scrollable.java:400)
@@ -8211,7 +8209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:31.203
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:34:07.350
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8261,7 +8259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:31.222
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:34:10.805
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8311,7 +8309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:31.241
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:34:10.835
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8361,7 +8359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:31.268
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:34:10.866
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8411,7 +8409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:31.287
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:34:20.690
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8461,7 +8459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:32.687
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:34:20.709
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8511,7 +8509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:32.702
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:34:20.720
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8561,7 +8559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:32.711
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:34:20.738
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8611,7 +8609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:32.767
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:36:36.293
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8661,7 +8659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:33.032
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:36:36.310
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8711,7 +8709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:33.084
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:36:38.298
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8761,7 +8759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:33.680
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:36:39.513
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8811,7 +8809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:33.841
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:36:39.533
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8861,7 +8859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:33.858
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:36:56.773
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8911,7 +8909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:33.892
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:36:56.792
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -8961,7 +8959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:33.922
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:36:56.810
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9011,7 +9009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:33.967
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:36:56.820
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9061,7 +9059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:34.159
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:36:56.838
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9111,7 +9109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:34.172
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:38:50.486
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9161,7 +9159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:34.189
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:38:50.511
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9211,7 +9209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.177
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:38:50.529
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9261,7 +9259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.197
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:38:50.556
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9311,7 +9309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.256
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:38:50.601
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9361,7 +9359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.273
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:38:50.890
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9411,7 +9409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.282
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:40:45.274
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9461,7 +9459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.308
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:40:45.293
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9511,7 +9509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.329
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:40:45.316
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9561,7 +9559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.627
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.447
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9611,7 +9609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.657
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.464
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9661,7 +9659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.672
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.481
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9711,7 +9709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.696
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.498
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9761,7 +9759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.726
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.507
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9811,7 +9809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.944
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.522
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9861,7 +9859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.957
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.538
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9911,7 +9909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.975
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.806
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -9961,7 +9959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:35.998
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.820
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10011,7 +10009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.178
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.835
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10061,7 +10059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.450
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.852
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10111,7 +10109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.476
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.871
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10161,7 +10159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.496
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:02.884
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10211,7 +10209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.512
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:08.026
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10261,7 +10259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.521
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:08.043
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10311,7 +10309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.539
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:08.071
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10361,7 +10359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.556
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:08.100
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10411,7 +10409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.810
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:08.161
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10461,7 +10459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.823
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:13.363
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10511,7 +10509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.841
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:13.380
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10561,7 +10559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.861
+!ENTRY org.eclipse.ui 4 0 2021-02-25 13:41:13.407
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10611,7 +10609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.872
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:09:57.666
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10661,7 +10659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:34:36.889
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:09:57.679
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10711,7 +10709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:35:02.407
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:09:57.710
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10761,7 +10759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:35:02.454
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:09:57.787
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10811,7 +10809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:35:02.473
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:09:57.972
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10861,7 +10859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:35:02.492
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:09:58.025
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10911,7 +10909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:35:02.737
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:09:58.049
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -10961,7 +10959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:35:14.225
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:09:58.079
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11011,7 +11009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:11.983
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:04.026
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11061,7 +11059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:11.996
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:04.049
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11111,7 +11109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:12.016
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:04.059
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11161,7 +11159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:12.026
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:04.086
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11211,7 +11209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:12.043
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:04.102
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11261,7 +11259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:12.073
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:05.240
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11311,7 +11309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:12.383
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:05.285
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11361,7 +11359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:12.405
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:05.295
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11411,7 +11409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:12.414
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:05.304
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11461,7 +11459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:43.911
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:05.319
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11511,7 +11509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:37:43.929
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:05.335
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11561,7 +11559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:05.574
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:05.351
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11611,7 +11609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:05.619
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:17.817
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11661,7 +11659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:41.618
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:17.825
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11711,7 +11709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:41.638
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.043
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11761,7 +11759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:41.649
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.063
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11811,7 +11809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:41.666
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.075
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11861,7 +11859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:41.675
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.090
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11911,7 +11909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:41.934
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.106
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -11961,7 +11959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:41.948
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.118
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12011,7 +12009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:41.963
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.334
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12061,7 +12059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:41.978
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.350
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12111,7 +12109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:41.993
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.364
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12161,7 +12159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:42.009
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.383
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12211,7 +12209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:42.283
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:18.402
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12261,7 +12259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:42.297
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:22.249
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12311,7 +12309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:42.316
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:22.264
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12361,7 +12359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:42.326
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:22.278
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12411,7 +12409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:42.356
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:22.294
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12461,7 +12459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:42.571
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:22.307
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12511,7 +12509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:42.589
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:22.370
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12561,7 +12559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:38:42.608
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:47.614
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12611,7 +12609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.200
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:47.632
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12661,7 +12659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.214
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:47.642
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12711,7 +12709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.234
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:47.660
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12761,7 +12759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.262
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:47.678
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12811,7 +12809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.281
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:58.831
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12861,7 +12859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.292
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:58.849
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12911,7 +12909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.312
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:58.867
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -12961,7 +12959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.532
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:58.889
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13011,7 +13009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.550
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:10:58.921
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13061,7 +13059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.595
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:16.855
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13111,7 +13109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.611
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:16.878
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13161,7 +13159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:39:09.623
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:16.902
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13211,7 +13209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:40:05.879
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:16.932
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13261,7 +13259,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:40:05.925
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:17.770
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13311,7 +13309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:40:05.946
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:17.789
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13361,7 +13359,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:40:06.003
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:17.807
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13411,7 +13409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:40.079
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:17.816
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13461,7 +13459,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:40.105
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:17.831
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13511,7 +13509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:40.114
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:17.860
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13561,7 +13559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:40.132
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:30.485
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13611,7 +13609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:40.153
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:30.506
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13661,7 +13659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:40.527
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:30.535
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13711,7 +13709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:46.182
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:30.559
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13761,7 +13759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:46.195
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:30.605
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13811,7 +13809,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:46.212
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:30.846
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13861,7 +13859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:46.249
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:30.865
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13911,7 +13909,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:46.479
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:30.884
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -13961,7 +13959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:46.501
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:30.908
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -14011,7 +14009,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:46.517
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:31.450
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -14061,7 +14059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:46.525
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:31.469
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -14111,7 +14109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:46.548
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:31.479
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -14161,7 +14159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:52.772
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:31.818
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -14211,7 +14209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.ui 4 0 2020-11-19 16:41:52.784
+!ENTRY org.eclipse.ui 4 0 2021-02-25 14:11:31.840
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException

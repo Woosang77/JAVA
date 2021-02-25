@@ -19,20 +19,23 @@ public class TopicService {
 	private String pwd = "12345";
 	private String driver = "oracle.jdbc.driver.OracleDriver";
 	
-	public List<Topic> getList(int page) throws ClassNotFoundException, SQLException{
-		
+	public List<Topic> getList(int page, String field, String query ,int count) throws ClassNotFoundException, SQLException{
+		//검색범위
 		int start = 1 + (page - 1)*10;
 		int end = 10 * page;
-		int count;
 		
-		String sql = "SELECT * FROM TOPIC_VIEW WHERE NUM BETWEEN ? AND ?";
+		//String sql = "SELECT * FROM TOPIC_VIEW WHERE " + field + " LIKE ? AND NUM BETWEEN ? AND ?";
+		String sql = "SELECT * FROM "
+				+ "(SELECT * FROM TOPIC WHERE " + field + " LIKE ? )"
+							+ "WHERE ROWNUM BETWEEN ? AND ?";
 		
 		Class.forName(driver);
 		Connection con = DriverManager.getConnection(url, uid, pwd);
 		PreparedStatement st = con.prepareStatement(sql);
 		
-		st.setInt(1, start);
-		st.setInt(2, end);
+		st.setString(1, "%"+query+"%");
+		st.setInt(2, start);
+		st.setInt(3, end);
 		ResultSet rs = st.executeQuery();
 		
 		List<Topic> list = new ArrayList<Topic>();
@@ -133,16 +136,18 @@ public class TopicService {
 	}
 
 	//Scalar
-	public int getCount() throws SQLException, ClassNotFoundException{
+	public int getCount(String field, String query) throws SQLException, ClassNotFoundException{
 		
 		int count = 0;
-		String sql = "SELECT COUNT(*) COUNT FROM topic";
+		String sql = "SELECT COUNT(*) FROM TOPIC WHERE " +field+ " LIKE ?";
 		Class.forName(driver);
 		Connection con = DriverManager.getConnection(url, uid, pwd);
-		Statement st = con.createStatement();
-		ResultSet rs = st.executeQuery(sql);
+		PreparedStatement st = con.prepareStatement(sql);
+		
+		st.setString(1, "%"+query+"%");
+		ResultSet rs = st.executeQuery();
 		if (rs.next())
-			count = rs.getInt("COUNT");						
+			count = rs.getInt("COUNT(*)");						
 		
 		rs.close();
 		st.close();
