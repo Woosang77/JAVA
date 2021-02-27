@@ -81,8 +81,8 @@ public class LibraryConsole {
 				return;
 			}
 			System.out.printf("< ¥Î√‚ øœ∑· >\n"+
-					"π›≥≥¿œ : %s\n", expire
-					);
+					"π›≥≥¿œ : %s\n", expire);
+			bookService.updateToRent(id);
 		}
 		return;
 	}

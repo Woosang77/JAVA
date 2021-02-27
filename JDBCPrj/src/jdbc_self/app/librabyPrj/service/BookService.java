@@ -71,6 +71,20 @@ public class BookService {
 		return book;
 	}
 	
+	//UpdateToRent
+	public void updateToRent(int id) throws ClassNotFoundException, SQLException {
+		String sql = "UPDATE book	" + 
+				"SET" + 
+				"	rent = 0" +
+				"WHERE id = ?";
+		
+		Class.forName(driver);
+		Connection con = DriverManager.getConnection(url, uid, pwd);
+		PreparedStatement st = con.prepareStatement(sql);
+		st.setInt(1, id);
+		st.executeUpdate();
+	}
+	
 	//Scalar
 	public int getCount(String field, String query) throws ClassNotFoundException, SQLException{
 		String sql = "SELECT COUNT(*) FROM BOOK WHERE " + field +
