@@ -1,7 +1,8 @@
 package jdbc_self.app.librabyPrj.model;
 
 public class Member {
-
+	
+	private int serialId;
 	private String name;
 	private String id;
 	private String pw;
@@ -37,6 +38,12 @@ public class Member {
 	}
 	public void setPw(String pw) {
 		this.pw = pw;
+	}
+	public int getSerialId() {
+		return serialId;
+	}
+	public void setSerialId(int serialId) {
+		this.serialId = serialId;
 	}
 	
 	

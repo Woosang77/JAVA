@@ -89,10 +89,10 @@ public class LibraryConsole {
 				System.out.println("> 대출완료된 도서입니다.");
 				return;
 			}
+			System.out.println("-----------------------------------------------");
 			System.out.printf("< 대출 완료 >\n"+
-//					"대여인 : %s\n", member.getId() + 
-					"반납일 : %s\n", expire);
-			bookService.updateToRent(id, 0);
+					"대여인 : %s\n반납일 : %s\n", member.getId(), expire);
+			bookService.updateToRent(id, 0, member.getSerialId());
 		}
 		return;
 	}
@@ -119,7 +119,7 @@ public class LibraryConsole {
 		String answer = scan.nextLine();
 		if (answer.equals("Y") || answer.equals("y")) {
 			System.out.println("< 반납 완료 >");
-			bookService.updateToRent(id, 1);
+			bookService.updateToRent(id, 1, member.getSerialId());
 		}
 		
 	}

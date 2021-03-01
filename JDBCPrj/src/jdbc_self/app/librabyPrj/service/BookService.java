@@ -72,17 +72,24 @@ public class BookService {
 	}
 	
 	//UpdateToRent
-	public void updateToRent(int id, int yn) throws ClassNotFoundException, SQLException {
+	public void updateToRent(int bookId, int rent, int member_id) throws ClassNotFoundException, SQLException {
 		String sql = "UPDATE book	" + 
 				"SET" + 
-				"	rent = ?" +
-				"WHERE id = ?";
+				"	rent = ?," +
+				"	rentid = ?" +
+				"	WHERE id = ?";
 		
 		Class.forName(driver);
 		Connection con = DriverManager.getConnection(url, uid, pwd);
 		PreparedStatement st = con.prepareStatement(sql);
-		st.setInt(1, yn);
-		st.setInt(2, id);
+		st.setInt(1, rent);
+		if (rent == 0) {
+			st.setInt(2, member_id);
+		}else {
+			st.setInt(2, 0);			
+		}
+		st.setInt(3, bookId);
+		
 		st.executeUpdate();
 	}
 	

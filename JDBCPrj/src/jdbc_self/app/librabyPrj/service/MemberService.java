@@ -48,6 +48,7 @@ public class MemberService {
 			member.setName(rs.getString("NAME"));
 			member.setId(rs.getString("USER_ID"));
 			member.setPw(rs.getString("PW"));
+			member.setSerialId(rs.getInt("MEMBER_ID"));
 			return member;
 		}else {
 			System.out.println("아이디가 없거나 잘못 입력되었습니다.");
