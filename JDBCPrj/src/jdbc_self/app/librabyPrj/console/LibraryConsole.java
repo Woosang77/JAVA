@@ -31,12 +31,13 @@ public class LibraryConsole {
 		System.out.println("-----------------------------------------------");
 		System.out.printf("    오복 도서관 [도서 수 : %d권]\n", count); 
 		System.out.println("-----------------------------------------------");
+		System.out.println("<ID> | <Title> | <Writer> | <Rentable>");
 		for (Book book : list) {
 			System.out.printf("%d | %s | %s | %s\n",
 					book.getId(),
 					book.getTitle(),
 					book.getWriter(),
-					book.getRent()
+					book.alterRent(book.getRent())
 					);
 		}
 		System.out.printf("		%d/%d pages\n",page,lastPage);
@@ -71,7 +72,7 @@ public class LibraryConsole {
 				book.getId(),
 				book.getTitle(),
 				book.getWriter(),
-				book.getRent()
+				book.alterRent(book.getRent())
 			);
 		System.out.print("> 대출 하시겠습니까? ( Y / N) : ");
 		String answer = scan.nextLine();
@@ -82,13 +83,35 @@ public class LibraryConsole {
 			}
 			System.out.printf("< 대출 완료 >\n"+
 					"반납일 : %s\n", expire);
-			bookService.updateToRent(id);
+			bookService.updateToRent(id, 0);
 		}
 		return;
 	}
 	
 	//2. 반납
-	public void returnBook() {
+	public void returnBook() throws ClassNotFoundException, SQLException{
+		Scanner scan = new Scanner(System.in);
+		System.out.print("> 도서번호 : ");
+		String book_id = scan.nextLine();
+		int id = Integer.parseInt(book_id);
+		Book book = bookService.find(id);
+		if (book.getRent().equals("1")) {
+			System.out.println("대출된 도서가 아닙니다.");
+			return;
+		}
+		System.out.println("< 검색결과 >");
+		System.out.printf("> %d | %s | %s | %s\n",
+				book.getId(),
+				book.getTitle(),
+				book.getWriter(),
+				book.alterRent(book.getRent())
+			);
+		System.out.print("> 반납 하시겠습니까? ( Y / N) : ");
+		String answer = scan.nextLine();
+		if (answer.equals("Y") || answer.equals("y")) {
+			System.out.printf("< 반납 완료 >");
+			bookService.updateToRent(id, 1);
+		}
 		
 	}
 	

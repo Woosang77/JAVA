@@ -48,5 +48,14 @@ public class Book {
 	public int getId() {
 		return id;
 	}
+	
+	public String alterRent(String rent) {
+		
+		if (rent.equals("1")) {
+			return "대여가능";
+		} else {
+			return "대여불가";
+		}
+	}
 
 }

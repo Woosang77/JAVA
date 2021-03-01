@@ -3,13 +3,15 @@ package jdbc_self.app.librabyPrj.model;
 public class Member {
 
 	private String name;
-	private String age;
 	private String id;
 	private String pw;
 	
-	public Member(String name, String age, String id, String pw) {
+	public Member() {
+		
+	}
+	public Member(String name, String id, String pw) {
+		super();
 		this.name = name;
-		this.age = age;
 		this.id = id;
 		this.pw = pw;
 	}
@@ -19,12 +21,6 @@ public class Member {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	public String getAge() {
-		return age;
-	}
-	public void setAge(String age) {
-		this.age = age;
 	}
 	public String getId() {
 		return id;

@@ -51,7 +51,7 @@ public class BookService {
 		return list;
 	}
 
-	//SimpleListUp
+	//
 	public Book find(int bookNumber) throws ClassNotFoundException, SQLException{
 		
 		String sql = "SELECT * FROM BOOK WHERE ID LIKE ?";
@@ -72,16 +72,17 @@ public class BookService {
 	}
 	
 	//UpdateToRent
-	public void updateToRent(int id) throws ClassNotFoundException, SQLException {
+	public void updateToRent(int id, int yn) throws ClassNotFoundException, SQLException {
 		String sql = "UPDATE book	" + 
 				"SET" + 
-				"	rent = 0" +
+				"	rent = ?" +
 				"WHERE id = ?";
 		
 		Class.forName(driver);
 		Connection con = DriverManager.getConnection(url, uid, pwd);
 		PreparedStatement st = con.prepareStatement(sql);
-		st.setInt(1, id);
+		st.setInt(1, yn);
+		st.setInt(2, id);
 		st.executeUpdate();
 	}
 	
