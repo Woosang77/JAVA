@@ -7,21 +7,21 @@ import jdbc_self.app.librabyPrj.model.Member;
 import jdbc_self.app.librabyPrj.service.MemberService;
 
 public class MainConsole {
-	
 	private LibraryConsole libraryConsole;
 	private MemberConsole memberConsole;
 	private Member member;
 	public MainConsole() {
+		memberConsole = new MemberConsole();
 		libraryConsole = new LibraryConsole();
-		memberConsole = new MemberConsole();	
+		member = new Member("비회원");
 	}
 	
 	//시작
 	public int printPage() {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("-----------------------------------------------");
-		System.out.printf("		Welcome			%s\n", memberConsole.member.getName());
-		System.out.println(memberConsole.logInState);
+		System.out.println("					" + member.getName());
+		System.out.println("   Welcome to Library System");
 		System.out.println("-----------------------------------------------");
 		System.out.printf(
 					"> 1. 회원\n"+
@@ -43,7 +43,8 @@ public class MainConsole {
 			num = memberConsole.start();
 			switch (num) {
 			case 1:	//로그인
-				memberConsole.logIn();
+				member = memberConsole.logIn();
+				System.out.printf("%s님이 로그인하셨습니다.\n", member.getName());
 				break;
 			case 2: //회원가입
 				memberConsole.signIn();
@@ -63,9 +64,11 @@ public class MainConsole {
 	
 	//도서관
 	public void startLibrary() throws ClassNotFoundException, SQLException{
+
 		int num;
 		EXIT: 
 			while (memberConsole.logInState) {
+			libraryConsole.connect(member);
 			num = libraryConsole.start();
 			switch (num) {
 			case 1:	//대여

@@ -16,9 +16,11 @@ public class MainPage {
 				mainConsole.logIn();
 				break;
 			case 2:	//도서관
-				try {mainConsole.startLibrary();}
-				catch (NullPointerException e) {
-					System.out.println("로그인을 해주세요. [ 회원 - 로그인 ]");}
+				try {
+					mainConsole.startLibrary();					
+				} catch (NullPointerException e) {
+					System.out.println("로그인을 해야합니다.");
+				}
 				break;
 			case 3: 	//종료
 				System.out.println("안녕히 가세요.");

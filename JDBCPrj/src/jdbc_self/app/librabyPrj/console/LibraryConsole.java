@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import jdbc_self.app.librabyPrj.model.Book;
+import jdbc_self.app.librabyPrj.model.Member;
 import jdbc_self.app.librabyPrj.service.BookService;
 
 public class LibraryConsole {
@@ -17,8 +18,14 @@ public class LibraryConsole {
 	private int page = 1;
 	private int count;
 	private int lastPage;
+	private Member member;
+	
 	public LibraryConsole() {
 		bookService = new BookService();
+	}
+	
+	public void connect(Member member) {
+		this.member = member;
 	}
 	
 	public int start() throws ClassNotFoundException, SQLException{
@@ -29,6 +36,7 @@ public class LibraryConsole {
 		lastPage = count % 10 > 0? lastPage+1:lastPage;
 		
 		System.out.println("-----------------------------------------------");
+		System.out.println("					" + member.getName());
 		System.out.printf("    오복 도서관 [도서 수 : %d권]\n", count); 
 		System.out.println("-----------------------------------------------");
 		System.out.println("<ID> | <Title> | <Writer> | <Rentable>");
@@ -82,6 +90,7 @@ public class LibraryConsole {
 				return;
 			}
 			System.out.printf("< 대출 완료 >\n"+
+//					"대여인 : %s\n", member.getId() + 
 					"반납일 : %s\n", expire);
 			bookService.updateToRent(id, 0);
 		}
@@ -109,7 +118,7 @@ public class LibraryConsole {
 		System.out.print("> 반납 하시겠습니까? ( Y / N) : ");
 		String answer = scan.nextLine();
 		if (answer.equals("Y") || answer.equals("y")) {
-			System.out.printf("< 반납 완료 >");
+			System.out.println("< 반납 완료 >");
 			bookService.updateToRent(id, 1);
 		}
 		

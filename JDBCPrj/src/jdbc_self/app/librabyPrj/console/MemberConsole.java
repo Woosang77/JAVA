@@ -11,7 +11,7 @@ public class MemberConsole {
 	
 	MemberService memberService;
 	Member member;
-	String user = "";
+	String user = "No Log In...";
 	Boolean logInState;
 	
 	public MemberConsole() {
@@ -24,8 +24,8 @@ public class MemberConsole {
 		Scanner scan = new Scanner(System.in);
 		logInCheck();
 		System.out.println("-----------------------------------------------");
-		System.out.printf("로그인된 회원 이름 : " + user);
-		System.out.println("\n-----------------------------------------------");
+		System.out.println(user);
+		System.out.println("-----------------------------------------------");
 		System.out.printf(
 				"< 1. 로그인 / 2. 회원가입 / 3. 나가기  >\n"
 				);
@@ -50,7 +50,6 @@ public class MemberConsole {
 	public Member logIn( ) throws ClassNotFoundException, SQLException{
 		String id = "";
 		String pw = "";
-		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("----------------------로그인화면-----------------");
 		System.out.print("> ID : ");
@@ -59,7 +58,7 @@ public class MemberConsole {
 		System.out.print("> PW : ");
 		pw = scan.nextLine();
 		member = memberService.searchMember(id, pw);
-
+		user = member.getName();
 		return member;
 	}
 	

@@ -9,6 +9,10 @@ public class Member {
 	public Member() {
 		
 	}
+	public Member(String name) {
+		super();
+		this.name = name;
+	}
 	public Member(String name, String id, String pw) {
 		super();
 		this.name = name;
