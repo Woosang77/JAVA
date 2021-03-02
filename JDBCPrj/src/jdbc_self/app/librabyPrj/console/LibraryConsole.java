@@ -50,7 +50,7 @@ public class LibraryConsole {
 		}
 		System.out.printf("		%d/%d pages\n",page,lastPage);
 		System.out.printf(
-				"< 1. 대여 / 2. 반납 / 3. 이전 / 4. 다음 / 5. 검색 / 6. 나가기 >\n"
+				"< 1. 대여 / 2. 반납 / 3. 이전 / 4. 다음 / 5. 회원도서목록 / 6. 검색 / 7. 나가기 >\n"
 				);
 		System.out.println("-----------------------------------------------");
 		System.out.print("> ");
@@ -74,7 +74,8 @@ public class LibraryConsole {
 		System.out.print("> 도서번호 : ");
 		String book_id = scan.nextLine();
 		int id = Integer.parseInt(book_id);
-		Book book = bookService.find(id);
+		List<Book> list = bookService.find("ID", id);
+		Book book = list.get(0);
 		System.out.println("< 검색결과 >");
 		System.out.printf("> %d | %s | %s | %s\n",
 				book.getId(),
@@ -104,7 +105,8 @@ public class LibraryConsole {
 		System.out.print("> 도서번호 : ");
 		String book_id = scan.nextLine();
 		int id = Integer.parseInt(book_id);
-		Book book = bookService.find(id);
+		List<Book> list = bookService.find("ID", id);
+		Book book = list.get(0);
 		if (book.getRent().equals("1")) {
 			System.out.println("대출된 도서가 아닙니다.");
 			return;
@@ -122,11 +124,10 @@ public class LibraryConsole {
 			System.out.println("< 반납 완료 >");
 			bookService.updateToRent(id, 1, member.getSerialId(),date);
 		}
-		
 	}
 	
 	//search
-	public void inputSearchWord() {
+	public void searchFilter() {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("검색 범주 (Title / Writer )중에 하나를 입력하세요.");
 		System.out.print("> ");
@@ -152,5 +153,18 @@ public class LibraryConsole {
 			return;
 		}
 		page++;
+	}
+	
+	//5.대여한 도서 목록
+	public void rentedBook() throws ClassNotFoundException, SQLException{
+		List<Book> list = bookService.find("RENTID", member.getSerialId());
+		for (Book book : list) {
+			System.out.printf("%d | %s | %s | %s\n",
+					book.getId(),
+					book.getTitle(),
+					book.getWriter(),
+					book.getExpiration()
+				);
+		}
 	}
 }

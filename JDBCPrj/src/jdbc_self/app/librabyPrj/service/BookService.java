@@ -44,33 +44,58 @@ public class BookService {
 			String title = rs.getString("TITLE");
 			String writer = rs.getString("WRITER");
 			String rent = rs.getString("RENT");
-			
-			Book book = new Book(id, title, writer, rent);
+			String expiration = rs.getString("EXPIRE");
+			Book book = new Book(id, title, writer, rent, expiration);
 			list.add(book);
 		}
 		return list;
 	}
 
-	//
-	public Book find(int bookNumber) throws ClassNotFoundException, SQLException{
+	//도서검색
+	public List<Book> find(String field, int number) throws ClassNotFoundException, SQLException{
 		
-		String sql = "SELECT * FROM BOOK WHERE ID LIKE ?";
+		String sql = "SELECT * FROM BOOK WHERE " + field + " = ?";
 		
 		Class.forName(driver);
 		Connection con = DriverManager.getConnection(url, uid, pwd);
 		PreparedStatement st = con.prepareStatement(sql);
-		st.setInt(1, bookNumber);
+		
+		st.setInt(1, number);
 		
 		ResultSet rs = st.executeQuery();
-		rs.next();
-		int id = rs.getInt("ID");
-		String title = rs.getString("TITLE");
-		String writer = rs.getString("WRITER");
-		String rent = rs.getString("RENT");
-		Book book = new Book(id, title, writer, rent);
-		return book;
+		List<Book> list = new ArrayList<>();
+		while(rs.next()) {			
+			int id = rs.getInt("ID");
+			String title = rs.getString("TITLE");
+			String writer = rs.getString("WRITER");
+			String rent = rs.getString("RENT");
+			String expiration = rs.getString("EXPIRE");
+			Book book = new Book(id, title, writer, rent, expiration);
+			list.add(book);
+		}
+		return list;
 	}
 	
+//	//회원의 도서목록
+//	public List<Book> rentedBook(int rentId) throws ClassNotFoundException, SQLException{
+//		String sql = "SELECT * FROM BOOK WHERE RENTID = ?";
+//		Class.forName(driver);
+//		Connection con = DriverManager.getConnection(url, uid, pwd);
+//		PreparedStatement st = con.prepareStatement(sql);
+//		st.setInt(1, rentId);
+//		
+//		ResultSet rs = st.executeQuery();
+//		while (rs.next()) {
+//			int id = rs.getInt("ID");
+//			String title = rs.getString("TITLE");
+//			String writer = rs.getString("WRITER");
+//			String expiration = rs.getString("EXPIRE");
+//			
+//			list
+//		}
+//		return ;
+//	}
+//	
 	//UpdateToRent
 	public void updateToRent(int bookId, int rent, int member_id, String date) throws ClassNotFoundException, SQLException {
 		String sql = "UPDATE book	" + 
@@ -95,14 +120,8 @@ public class BookService {
 		
 		st.executeUpdate();
 	}
-//	
-//	//회원의 도서목록
-//	public void rentedBook() {
-//		String sql = "SELECT * FROM BOOK WHERE RENTID = ?"
-//		Class.forName(driver);
-//		Connection con = DriverManager.getConnection(url, uid, pwd);
-//		PreparedStatement st = con.prepareStatement(sql);
-//	}
+	
+
 	
 	//Scalar
 	public int getCount(String field, String query) throws ClassNotFoundException, SQLException{
