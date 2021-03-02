@@ -75,27 +75,7 @@ public class BookService {
 		}
 		return list;
 	}
-	
-//	//회원의 도서목록
-//	public List<Book> rentedBook(int rentId) throws ClassNotFoundException, SQLException{
-//		String sql = "SELECT * FROM BOOK WHERE RENTID = ?";
-//		Class.forName(driver);
-//		Connection con = DriverManager.getConnection(url, uid, pwd);
-//		PreparedStatement st = con.prepareStatement(sql);
-//		st.setInt(1, rentId);
-//		
-//		ResultSet rs = st.executeQuery();
-//		while (rs.next()) {
-//			int id = rs.getInt("ID");
-//			String title = rs.getString("TITLE");
-//			String writer = rs.getString("WRITER");
-//			String expiration = rs.getString("EXPIRE");
-//			
-//			list
-//		}
-//		return ;
-//	}
-//	
+
 	//UpdateToRent
 	public void updateToRent(int bookId, int rent, int member_id, String date) throws ClassNotFoundException, SQLException {
 		String sql = "UPDATE book	" + 
@@ -120,8 +100,6 @@ public class BookService {
 		
 		st.executeUpdate();
 	}
-	
-
 	
 	//Scalar
 	public int getCount(String field, String query) throws ClassNotFoundException, SQLException{

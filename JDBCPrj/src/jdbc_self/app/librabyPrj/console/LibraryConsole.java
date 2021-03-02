@@ -40,6 +40,7 @@ public class LibraryConsole {
 		System.out.printf("    오복 도서관 [도서 수 : %d권]\n", count); 
 		System.out.println("-----------------------------------------------");
 		System.out.println("<ID> | <Title> | <Writer> | <Rentable>");
+		System.out.println("-----------------------------------------------");
 		for (Book book : list) {
 			System.out.printf("%d | %s | %s | %s\n",
 					book.getId(),
@@ -48,6 +49,7 @@ public class LibraryConsole {
 					book.alterRent(book.getRent())
 					);
 		}
+		System.out.println("-----------------------------------------------");
 		System.out.printf("		%d/%d pages\n",page,lastPage);
 		System.out.printf(
 				"< 1. 대여 / 2. 반납 / 3. 이전 / 4. 다음 / 5. 회원도서목록 / 6. 검색 / 7. 나가기 >\n"
@@ -98,31 +100,39 @@ public class LibraryConsole {
 		return;
 	}
 	
-	//2. 반납
+	//2. 반납 (수정 필요)
 	public void returnBook() throws ClassNotFoundException, SQLException{
+		List<Book> list = bookService.find("RENTID", member.getSerialId());
+		boolean check = false;
 		String date = "";
 		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("<반납 대상 도서>");
+		rentedBook();
+		System.out.println("-----------------------------------------------");
 		System.out.print("> 도서번호 : ");
-		String book_id = scan.nextLine();
-		int id = Integer.parseInt(book_id);
-		List<Book> list = bookService.find("ID", id);
-		Book book = list.get(0);
-		if (book.getRent().equals("1")) {
-			System.out.println("대출된 도서가 아닙니다.");
-			return;
-		}
-		System.out.println("< 검색결과 >");
-		System.out.printf("> %d | %s | %s | %s\n",
-				book.getId(),
-				book.getTitle(),
-				book.getWriter(),
-				book.alterRent(book.getRent())
+		int id = scan.nextInt();
+		scan.nextLine();
+		for (Book book : list) {
+			if (book.getId() != id) {continue;}
+			check = true;
+			System.out.println("< 검색결과 >");
+			System.out.printf("> %d | %s | %s | %s\n",
+					book.getId(),
+					book.getTitle(),
+					book.getWriter(),
+					book.alterRent(book.getRent())
 			);
-		System.out.print("> 반납 하시겠습니까? ( Y / N) : ");
-		String answer = scan.nextLine();
-		if (answer.equals("Y") || answer.equals("y")) {
-			System.out.println("< 반납 완료 >");
-			bookService.updateToRent(id, 1, member.getSerialId(),date);
+			System.out.print("> 반납 하시겠습니까? ( Y / N) : ");
+			String answer = scan.nextLine();
+			if (answer.equals("Y") || answer.equals("y")) {
+				System.out.println("-----------------------------------------------");
+				System.out.println("< 반납 완료 >");
+				bookService.updateToRent(id, 1, member.getSerialId(),date);
+			} 
+		}
+		if (check != true) {
+			System.out.println("찾는 결과 없음(반납 불가 도서)");
 		}
 	}
 	
@@ -158,6 +168,7 @@ public class LibraryConsole {
 	//5.대여한 도서 목록
 	public void rentedBook() throws ClassNotFoundException, SQLException{
 		List<Book> list = bookService.find("RENTID", member.getSerialId());
+		System.out.println("-----------------------------------------------");
 		for (Book book : list) {
 			System.out.printf("%d | %s | %s | %s\n",
 					book.getId(),
