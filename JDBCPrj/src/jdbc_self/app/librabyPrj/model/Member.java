@@ -7,9 +7,7 @@ public class Member {
 	private String id;
 	private String pw;
 	
-	public Member() {
-		
-	}
+	public Member() {}
 	public Member(String name) {
 		super();
 		this.name = name;
@@ -45,6 +43,4 @@ public class Member {
 	public void setSerialId(int serialId) {
 		this.serialId = serialId;
 	}
-	
-	
 }

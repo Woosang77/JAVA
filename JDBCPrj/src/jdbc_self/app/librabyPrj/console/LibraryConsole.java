@@ -12,13 +12,15 @@ import jdbc_self.app.librabyPrj.model.Member;
 import jdbc_self.app.librabyPrj.service.BookService;
 
 public class LibraryConsole {
+	
 	private BookService bookService;
+	private Member member;
+	private int count;
+	private int lastPage;
+	//Default
 	private String searchField = "TITLE";
 	private String searchWord = "";
 	private int page = 1;
-	private int count;
-	private int lastPage;
-	private Member member;
 	
 	public LibraryConsole() {
 		bookService = new BookService();
@@ -31,6 +33,7 @@ public class LibraryConsole {
 	public int start() throws ClassNotFoundException, SQLException{
 		Scanner scan = new Scanner(System.in);
 		List<Book> list = bookService.getList(page, searchField, searchWord);
+		
 		count = bookService.getCount(searchField, searchWord);
 		int lastPage = count / 10;
 		lastPage = count % 10 > 0? lastPage+1:lastPage;
@@ -52,19 +55,21 @@ public class LibraryConsole {
 		System.out.println("-----------------------------------------------");
 		System.out.printf("		%d/%d pages\n",page,lastPage);
 		System.out.printf(
-				"< 1. 대여 / 2. 반납 / 3. 이전 / 4. 다음 / 5. 회원도서목록 / 6. 검색 / 7. 나가기 >\n"
+				"< 1. 대여 / 2. 반납 / 3. 이전 / 4. 다음 / 5. 대여목록 / 6. 검색 / 7. 나가기 >\n"
 				);
 		System.out.println("-----------------------------------------------");
 		System.out.print("> ");
 		
-		String num_ = scan.nextLine();
-		int num = Integer.parseInt(num_);
+		int num = scan.nextInt();
+		scan.nextLine();
 		return num;
 	}
 
 	//1. 대여
 	public void rentBook() throws ClassNotFoundException, SQLException{
 		String expire = "";
+		Scanner scan = new Scanner(System.in);
+
 		SimpleDateFormat sdformat = new SimpleDateFormat("yyyy년 MM월 dd일");
 		Date date = new Date();
 		Calendar cal = Calendar.getInstance();
@@ -72,10 +77,9 @@ public class LibraryConsole {
 		cal.add(Calendar.DATE, +14);
 		expire = sdformat.format(cal.getTime());
 		
-		Scanner scan = new Scanner(System.in);
 		System.out.print("> 도서번호 : ");
-		String book_id = scan.nextLine();
-		int id = Integer.parseInt(book_id);
+		int id = scan.nextInt();
+		scan.nextLine();
 		List<Book> list = bookService.find("ID", id);
 		Book book = list.get(0);
 		System.out.println("< 검색결과 >");
@@ -97,7 +101,6 @@ public class LibraryConsole {
 					"대여인 : %s\n반납일 : %s\n", member.getId(), expire);
 			bookService.updateToRent(id, 0, member.getSerialId(), expire);
 		}
-		return;
 	}
 	
 	//2. 반납 (수정 필요)
@@ -150,14 +153,17 @@ public class LibraryConsole {
 	//3. 이전
 	public void movePrePage() {
 		if (page == 1) {
-			System.out.println("마지막페이지입니다.");
+			System.out.println("이전 페이지가 없습니다.");
 			return;
 		}
 		page--;
 	}
 	
 	//4. 다음
-	public void MoveNextPage() {
+	public void MoveNextPage() throws ClassNotFoundException, SQLException{
+		int count = bookService.getCount(searchField, searchWord);
+		int lastPage = count /10;
+		lastPage = count % 10>0 ? lastPage+1:lastPage;
 		if (page == lastPage) {
 			System.out.println("마지막 페이지입니다.");
 			return;

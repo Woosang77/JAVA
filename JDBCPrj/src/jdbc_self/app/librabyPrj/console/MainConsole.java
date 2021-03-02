@@ -2,18 +2,18 @@ package jdbc_self.app.librabyPrj.console;
 
 import java.sql.SQLException;
 import java.util.Scanner;
-
 import jdbc_self.app.librabyPrj.model.Member;
-import jdbc_self.app.librabyPrj.service.MemberService;
 
 public class MainConsole {
+	
 	private LibraryConsole libraryConsole;
 	private MemberConsole memberConsole;
 	private Member member;
+	
 	public MainConsole() {
 		memberConsole = new MemberConsole();
 		libraryConsole = new LibraryConsole();
-		member = new Member("비회원");
+		member = new Member("Unconnected");
 	}
 	
 	//시작
@@ -35,7 +35,7 @@ public class MainConsole {
 		return num;
 	}
 	
-	//회원
+	//회원 (MainPage - 1.회원 내부)
 	public void logIn() throws ClassNotFoundException, SQLException{
 		int num;
 		EXIT:
@@ -50,26 +50,23 @@ public class MainConsole {
 				memberConsole.signIn();
 				break;
 			case 3: //나가기
-				System.out.println("> 메인 화면으로");
+				System.out.println("> 메인 화면으로 이동");
 				break EXIT;
 			default:
 				System.out.println("> 잘못된 번호입니다.");
 				break;
 			}
 		}
-		//id찾기
-		//비밀번호찾기
 	}
 
 	
-	//도서관
+	//도서관 (MainPage - 2. 도서관 내부)
 	public void startLibrary() throws ClassNotFoundException, SQLException{
-
-		int num;
 		EXIT: 
-			while (memberConsole.logInState) {
+		while (memberConsole.logInState) {
+			//도서관콘솔에 필요한 Member 정보를 넘겨줌
 			libraryConsole.connect(member);
-			num = libraryConsole.start();
+			int num = libraryConsole.start();
 			switch (num) {
 			case 1:	//대여
 				libraryConsole.rentBook();

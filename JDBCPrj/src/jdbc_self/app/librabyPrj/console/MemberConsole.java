@@ -11,7 +11,7 @@ public class MemberConsole {
 	
 	MemberService memberService;
 	Member member;
-	String user = "No Log In...";
+	String user = "Unconnected...";
 	Boolean logInState;
 	
 	public MemberConsole() {
@@ -26,13 +26,11 @@ public class MemberConsole {
 		System.out.println("-----------------------------------------------");
 		System.out.println(user);
 		System.out.println("-----------------------------------------------");
-		System.out.printf(
-				"< 1. 로그인 / 2. 회원가입 / 3. 나가기  >\n"
-				);
+		System.out.printf("< 1. 로그인 / 2. 회원가입 / 3. 나가기  >\n");
 		System.out.println("-----------------------------------------------");
 		System.out.print("> ");
-		String num_ = scan.nextLine();
-		int num = Integer.parseInt(num_);
+		int num = scan.nextInt();
+		scan.nextLine();
 		return num;
 	}
 	
@@ -41,9 +39,7 @@ public class MemberConsole {
 		if (member != null) {
 			logInState = true;
 			user = member.getName();
-		}else {
-			logInState = false;
-		}
+		}else {logInState = false;}
 	}
 	
 	//로그인
@@ -51,6 +47,7 @@ public class MemberConsole {
 		String id = "";
 		String pw = "";
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.println("----------------------로그인화면-----------------");
 		System.out.print("> ID : ");
 		id = scan.nextLine();
@@ -77,7 +74,7 @@ public class MemberConsole {
 		
 		System.out.print("> 비밀번호 : ");
 		pw = scan.nextLine();
-		
+		System.out.println("-----------------------------------------------");
 		memberService.createId(name, id, pw);
 	}
 }
