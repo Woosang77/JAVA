@@ -92,13 +92,14 @@ public class LibraryConsole {
 			System.out.println("-----------------------------------------------");
 			System.out.printf("< 대출 완료 >\n"+
 					"대여인 : %s\n반납일 : %s\n", member.getId(), expire);
-			bookService.updateToRent(id, 0, member.getSerialId());
+			bookService.updateToRent(id, 0, member.getSerialId(), expire);
 		}
 		return;
 	}
 	
 	//2. 반납
 	public void returnBook() throws ClassNotFoundException, SQLException{
+		String date = "";
 		Scanner scan = new Scanner(System.in);
 		System.out.print("> 도서번호 : ");
 		String book_id = scan.nextLine();
@@ -119,7 +120,7 @@ public class LibraryConsole {
 		String answer = scan.nextLine();
 		if (answer.equals("Y") || answer.equals("y")) {
 			System.out.println("< 반납 완료 >");
-			bookService.updateToRent(id, 1, member.getSerialId());
+			bookService.updateToRent(id, 1, member.getSerialId(),date);
 		}
 		
 	}

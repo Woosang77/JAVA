@@ -72,11 +72,12 @@ public class BookService {
 	}
 	
 	//UpdateToRent
-	public void updateToRent(int bookId, int rent, int member_id) throws ClassNotFoundException, SQLException {
+	public void updateToRent(int bookId, int rent, int member_id, String date) throws ClassNotFoundException, SQLException {
 		String sql = "UPDATE book	" + 
 				"SET" + 
 				"	rent = ?," +
-				"	rentid = ?" +
+				"	rentid = ?," +
+				"	expire = ?"+	
 				"	WHERE id = ?";
 		
 		Class.forName(driver);
@@ -85,13 +86,23 @@ public class BookService {
 		st.setInt(1, rent);
 		if (rent == 0) {
 			st.setInt(2, member_id);
+			st.setString(3, date);
 		}else {
-			st.setInt(2, 0);			
+			st.setInt(2, 0);
+			st.setString(3, date);
 		}
-		st.setInt(3, bookId);
+		st.setInt(4, bookId);
 		
 		st.executeUpdate();
 	}
+//	
+//	//회원의 도서목록
+//	public void rentedBook() {
+//		String sql = "SELECT * FROM BOOK WHERE RENTID = ?"
+//		Class.forName(driver);
+//		Connection con = DriverManager.getConnection(url, uid, pwd);
+//		PreparedStatement st = con.prepareStatement(sql);
+//	}
 	
 	//Scalar
 	public int getCount(String field, String query) throws ClassNotFoundException, SQLException{

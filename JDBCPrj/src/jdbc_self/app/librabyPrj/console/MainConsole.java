@@ -83,10 +83,13 @@ public class MainConsole {
 			case 4:	//다음
 				libraryConsole.MoveNextPage();
 				break;
-			case 5://검색
+			case 5: //대여한 도서 목록
+				
+				break;
+			case 6://검색
 				libraryConsole.inputSearchWord();
 				break;
-			case 6: 	//종료
+			case 7: 	//종료
 				System.out.println("메인화면으로...");
 				break EXIT;
 			default:	 //잘못누름
