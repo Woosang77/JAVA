@@ -10,13 +10,14 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="반납"/>
+			<item value="find"/>
 			<item value="FIELD"/>
 			<item value="\R\N"/>
 			<item value="&quot;oracle.jdbc.driver.OracleDriver&quot;"/>
 			<item value="\r\n"/>
 			<item value="getRan"/>
 			<item value="System.out.println(&quot;Member(String id) 실행&quot;);System.out.println(&quot;Member(String id) 실행&quot;);"/>
-			<item value="F"/>
 		</list>
 		<list key="replacehistory">
 			<item value="driver"/>

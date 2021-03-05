@@ -174,7 +174,9 @@ public class LibraryConsole {
 	//5.대여한 도서 목록
 	public void rentedBook() throws ClassNotFoundException, SQLException{
 		List<Book> list = bookService.find("RENTID", member.getSerialId());
+		int count = list.size();
 		System.out.println("-----------------------------------------------");
+		System.out.printf("%s님 앞으로 %d권 대여되어있습니다.\n",member.getName(), count);
 		for (Book book : list) {
 			System.out.printf("%d | %s | %s | %s\n",
 					book.getId(),
