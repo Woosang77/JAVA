@@ -55,7 +55,7 @@ public class LibraryConsole {
 		System.out.println("-----------------------------------------------");
 		System.out.printf("		%d/%d pages\n",page,lastPage);
 		System.out.printf(
-				"< 1. 대여 / 2. 반납 / 3. 이전 / 4. 다음 / 5. 대여목록 / 6. 검색 / 7. 나가기 >\n"
+				"< 1. 대여 / 2. 반납 / 3. 이전 / 4. 다음 / 5. 대여목록 / 6. 책기증 / 7.검색 / 8. 나가기 >\n"
 				);
 		System.out.println("-----------------------------------------------");
 		System.out.print("> ");
@@ -185,5 +185,29 @@ public class LibraryConsole {
 					book.getExpiration()
 				);
 		}
+	}
+		
+	//책기증
+	public void donateBook() throws ClassNotFoundException, SQLException{
+		Scanner scan  = new Scanner(System.in);
+		Book book = new Book();
+		
+		System.out.println("-----------------------------------------------");
+		System.out.print("> 기증하실 책의 제목을 작성 : ");
+		String title = scan.nextLine();
+		
+		System.out.print("> 책의 저자를 입력 : ");
+		String writer = scan.nextLine();
+		
+		book.setTitle(title);
+		book.setWriter(writer);
+		System.out.printf("> 제목 : %s | 저자 : %s\n",title, writer);
+		System.out.print("> 기증 하시겠습니까? ( Y / N) : ");
+		String answer = scan.nextLine();
+		if (answer.equals("Y") || answer.equals("y")) {
+			bookService.addDB(book);
+			System.out.println("-----------------------------------------------");
+			System.out.println("> 소중한 책 기증해주셔서 감사합니다.");
+		} 
 	}
 }

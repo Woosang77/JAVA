@@ -83,10 +83,13 @@ public class MainConsole {
 			case 5: //대여한 도서 목록
 				libraryConsole.rentedBook();
 				break;
-			case 6://검색
+			case 6: //책 기증
+				libraryConsole.donateBook();
+				break;
+			case 7://검색
 				libraryConsole.searchFilter();
 				break;
-			case 7: 	//종료
+			case 8: 	//종료
 				System.out.println("메인화면으로...");
 				break EXIT;
 			default:	 //잘못누름

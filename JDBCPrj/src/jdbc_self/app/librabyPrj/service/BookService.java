@@ -100,6 +100,22 @@ public class BookService {
 		st.executeUpdate();
 	}
 	
+	//Add
+	public void addDB(Book book) throws ClassNotFoundException, SQLException{
+		String sql = "INSERT INTO book" + 
+				"    (id, title, writer)" + 
+				"    VALUES" + 
+				"    (BOOK_SEQ.nextval, ?, ?)";
+		
+		Class.forName(driver);
+		Connection con = DriverManager.getConnection(url, uid, pwd);
+		PreparedStatement st = con.prepareStatement(sql);
+		st.setString(1, book.getTitle());
+		st.setString(2, book.getWriter());
+		st.executeUpdate();
+	}
+	
+	
 	//Scalar
 	public int getCount(String field, String query) throws ClassNotFoundException, SQLException{
 		String sql = "SELECT COUNT(*) FROM BOOK WHERE " + field +
